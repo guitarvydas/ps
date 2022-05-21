@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "WIP/ė - Concurrent Lambdas Working Paper 4/A Use-Case For Fanout.md",
+            "file": "README.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WIP/ė - Concurrent Lambdas Working Paper 4/A Use-Case For Fanout.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WIP/ė - Concurrent Lambdas Working Paper 4/A Use-Case For Fanout.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WIP/ė - Concurrent Lambdas Working Paper 4/A Use-Case For Fanout.md"
+                "file": "README.md"
               }
             }
           }
@@ -130,6 +130,7 @@
   },
   "active": "dd4a181efacf48e7",
   "lastOpenFiles": [
+    "README.md",
     "WIP/ė - Concurrent Lambdas Working Paper 4/A Use-Case For Fanout.md",
     "WIP/ė - Concurrent Lambdas Working Paper 4/Bounded Queues.md",
     "WIP/ė - Concurrent Lambdas Working Paper 4/Functions.md",
@@ -138,7 +139,6 @@
     "WIP/ė - Concurrent Lambdas Working Paper 3/Diagram Findconnection ė.md",
     "WIP/ė - Concurrent Lambdas Working Paper 3/Diagram ė handling.md",
     "WIP/ė - Concurrent Lambdas Working Paper 3/ASCII Art ė.md",
-    "WIP/ė - Concurrent Lambdas Working Paper 4/Copy On Write.md",
-    "ė Working Paper 3.md"
+    "WIP/ė - Concurrent Lambdas Working Paper 4/Copy On Write.md"
   ]
 }
