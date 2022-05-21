@@ -1,0 +1,5 @@
+[[Programming Redux]]
+[[Programming]]
+[[If Then Else Is A Low Level Construct (Don't Use It)]]
+[[Looping and Recursion Only Describe Data]]
+[[Programming Languages Are IDEs]]

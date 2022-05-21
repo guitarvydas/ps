@@ -1,0 +1,12 @@
+var semantics_hooks = {
+    ...,
+    line: function (_indent, _spc, _toEOL, _linetail) {
+	indent = opt (_indent);
+	spc = opt (_spc);
+	toEOL = kp (_toEOL);
+	linetail = _linetail;
+	...
+    },
+    ...
+}
+

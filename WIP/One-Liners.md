@@ -1,0 +1,14 @@
+- preemption is a crutch
+- concurrency is a healty lifestyle, parallelism is a greasy hamburger
+- 0D ≣ zero-dependency
+- What is the smallest unit of concurrency? O(10 bytes)
+- programming early games "used to be simpler"
+- Epicycle ≣ Accidental Complexity ≣ Working Too Hard ≣ Premature Optimization
+- Premature Optimization is a root of Evil
+- CPS (Continuation Passing Style) is GOTO on steroids
+- multitasking is not hard, unless you try to express it in a synchronous notation
+- complexity is in the eye of the beholder
+- optimization measure: good optimizations make code smaller (including their own code)
+- details kill
+- programming languages are IDEs
+- tracer bullets for messages

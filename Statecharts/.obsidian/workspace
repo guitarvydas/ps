@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "0c7dfbb6bc38adec",
+    "type": "split",
+    "children": [
+      {
+        "id": "5fb63e0508a73a89",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "StateExplosion.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "91eb2db5523e9f93",
+    "type": "split",
+    "children": [
+      {
+        "id": "a162097247e66b5e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "509ee1ed997a71ad",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "ef9cde9331a36449",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7bf56f1110ad7032",
+    "type": "split",
+    "children": [
+      {
+        "id": "29df460f25928c57",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f6c7f84870bf2f83",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "StateExplosion.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "5fb63e0508a73a89",
+  "lastOpenFiles": [
+    "StateExplosion.md",
+    "Concurrency.md",
+    "Diagrams.md",
+    "References.md",
+    "Book.md",
+    "Message Passing.md",
+    "Containment.md",
+    "Introduction.md",
+    "About Me.md",
+    "State.md"
+  ]
+}

@@ -1,0 +1,139 @@
+---
+layout: post
+title:  "PFR and PF (Parsing Find and Replace)"
+---
+# Overview
+<u>PFR</u> is a command-line find-and-replace utility that uses PEG parsing instead of REGEXP.  <u>PFR</u> outputs the resulting (modified input) file to stdout.
+
+<u>PF</u> is a command-line find utility that uses PEG parsing instead of REGEXP (like GREP, except with parsing). <u>PF</u> merely prints the names of the matching files on stdout.
+
+# Usage
+```
+pfr source-filename grammar-filename action-filename [support.js] [t] [v]
+pf source-filename grammar-filename
+```
+
+The 3 files contain text.  
+
+*Source-filename* refers to a file which contains arbitrary text which is to-be-parsed.
+
+*Grammar-filename* refers to a file which contains a grammar specification in *Ohm-JS* format.
+
+*Action-filename* refers to a file which contains an action specification in *Glue* format.
+
+*Support.js* [optional] contains functions that are used by the action rules (only required if action rules call-out to support functions ; not needed in simple use-cases). Default: support.js is not used and not read.
+
+*t* [optional] lower-case 't' as the 5th argument turns on rule tracing.  Default: tracing disabled.
+
+*v* [optional] lower-case 'v' as the 6th argument turns on display of generated action code.  Default: displaying disabled.
+
+# Code
+
+[github](https://github.com/guitarvydas/parse)
+
+PFR and PF are shell scripts (Bash) contained in that directory.  Put them on your PATH.
+
+# Workflow
+
+[*This section doesn't belong in the final PFR/PF man page, but the tools are young...*]
+
+A workflow that works best for me is:
+
+1. Use the [Ohm-Editor](https://ohmlang.github.io/editor/) to build and debug the grammar
+
+2. Write a "vanilla" action spec that simply outputs what is input ("identity") ; note that if you use *syntactic rules* instead of *lexical rules* in the grammar, the output will omit spacing (that's OK, you just need to be aware of this ; the only way to get a pure identity grammar is to use syntactic rules only (not necessary))
+
+3. Modify the *identity* action spec to suit your needs.
+
+# Appendix - Ohm-JS Format
+
+See [Ohm-JS Syntax](https://github.com/harc/ohm/blob/master/doc/syntax-reference.md).
+
+# Appendix - Glue Format
+
+See [Glue Manual](https://guitarvydas.github.io/2021/03/24/Glue-Manual.html).
+
+See [Glue Overview](https://guitarvydas.github.io/2021/04/11/Glue-Tool.html).
+
+# Appendix - Sample Grammars and Actions
+
+[ABC Glue](https://guitarvydas.github.io/2021/09/15/ABC-Glue.html) (uses the `ftranpile()` function - a precursor to `PFR` - with a simple`.ohm` file and a simple `.glue` file (action spec))
+
+[first class comments](https://github.com/guitarvydas/firstclasscomments) (this project was a quickie - one weekend - entry in the language jam ; the current versions of `sequence.js` and `details.js` contain the pre-cursor of `PFR` ; each of these contains references to multiple `.ohm` files and to multiple `.glue` files (action specs))
+
+
+
+A sample (very simple) grammar specification from ABC Glue:
+
+```
+ABCgrok {
+TopLevel = Assignment+
+
+  Assignment =   Variable "=" Expression -- complex
+               | Variable "=" number -- simple
+  Expression = Variable "+" Variable
+
+    Variable = "a" .. "z"
+    number = dig+
+    dig = "0" .. "9"
+}
+```
+
+In this example, there are 7 grammar rules
+
+- `TopLevel` is one-or-more Assignments
+- `Assignment_complex` is a `Variable`, `=`and an `Expression`
+- `Assignment_simple` is a `Variable`, `=`and a `number`
+- A `Variable` is a single lower case letter, from`a` through `z`
+- A `number` is one-or-more `dig`s
+- A `dig` is a single character `0` through `9`
+
+A sample action specification (aka Glue):
+
+```
+TopLevel [@assignments] = [[${console.log (assignments)}]]
+Assignment_complex [v keq e] = [[var ${v} = ${e};\n]]
+Assignment_simple [v keq n] = [[var ${v} = ${n};\n]]
+Expression [v1 kplus v2] = [[${v1} + ${v2}]]
+Variable [c] = [[${c}]]
+number [@digits] = [[${digits}]]
+dig [c] = [[${c}]]
+```
+
+One Action rule for each grammar rule.  
+
+The Action rules must have the same name as the grammar rules.
+
+Each rule creates and returns one string (the string might be empty).
+
+- `TopLevel` accepts an `iterator` node called `assignments`, then calls `console.log()` to print out the assignments.
+- `Assignment_complex` takes three parameters `v`, `keq`and `e` which represent the sub-matches in the Assignment_complex grammar rule, then returns the string `var ${v} = ${e};` followed by a newline ; ${v} is expanded to be the text of the `var` parameter, ${e} is expanded to be the text of the `e` parameter, the parameter called `keq` is ignored) 
+- `Assignment_simple `takes three parameters `v`, `keq`and `n` and returns the string `var ${v} = ${n}` followed by a newline, the parameter `keq` is ignored
+- `Variable` takes three parameters `v1`, `kplus` and `v2` and returns a plus statement (ignoring the parameter `kplus`)
+- `number` takes an iteration node containing all of the `dig`s and returns a string containing the digits (the iteration node is collapsed automatically to make a single string)
+- `dig` takes one parameter `c` and returns a string of length 1 containing the character.
+
+# Future
+
+These commands should deal with *stdin*, *stdout* and *stderr* in the usual UNIX® style.  Instead, these commands currently require filenames on the command line.
+
+# See Also
+
+[Ohm-JS Syntax](https://github.com/harc/ohm/blob/master/doc/syntax-reference.md).
+
+[Glue Manual](https://guitarvydas.github.io/2021/03/24/Glue-Manual.html).
+
+[Glue Overview](https://guitarvydas.github.io/2021/04/11/Glue-Tool.html).
+
+[Table of Contents](https://guitarvydas.github.io/2021/12/10/Table-of-Contents-Dec-01-2021.html)
+[Blog](https://guitarvydas.github.io)
+[Videos](https://www.youtube.com/channel/UC9EJr0nKHwadbHUtc5zHdmQ/videos)
+[References](https://guitarvydas.github.io/2021/01/14/References.html)
+
+<script src="https://utteranc.es/client.js" 
+        repo="guitarvydas/guitarvydas.github.io" 
+        issue-term="pathname" 
+        theme="github-light" 
+        crossorigin="anonymous" 
+        async> 
+</script> 

@@ -1,0 +1,4 @@
+- need "structured programming" for Actors
+	- flattened designs always lead to trouble
+	- hierarchy is the ticket
+	- [[Abstraction]]

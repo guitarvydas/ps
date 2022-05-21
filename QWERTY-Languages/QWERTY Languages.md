@@ -1,0 +1,31 @@
+- N0D
+	- non-zero-dependency
+	- the goal should be 0D - zero-dependency - languages
+- predicated on biases of mid-1900s hardware
+		- expensive CPUs 
+			- need to timeshare
+			- language must run on 1 CPU
+				- Loops
+		- expensive memory
+			- GC
+- pervasive synchrony
+	- epicycles needed to build async on top of pervasive sync
+		- epicycles lead to unpleasant surprises
+			- e.g. Mars Pathfinder disaster
+			- e.g. preemption 
+- predicated on mathematics
+	- based on 1,000s year-old biases
+		- clay tablets
+		- pencil and paper
+		- markings ordered left-to-right, top-to-bottom, etc.
+		- loose molecules (graphite)
+		- various liquid chemicals (inks, pigments)
+- strict grids of non-overlapping small bitmaps
+- underlying assumption of all developer-oriented programming languages
+- not related to current hardware capabilities 
+	- underkill
+	- e.g. bitmapped screens
+	- e.g. overlapping windows
+	- e.g. pointing devices in addition to qwerty keyboards
+	- e.g. media - sound and video
+- 

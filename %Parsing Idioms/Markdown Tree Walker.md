@@ -1,0 +1,29 @@
+
+| grammar rule | identity | ... |
+| ----------------------   | ------ | ---- |
+| main | *f(line)* | ... |
+
+
+line | *f(indent, spc, toEOL, linetail)* | ...
+linetail | - | - 
+linetail_withContent | *f(newline, toIndent)* | ...
+linetail_withoutContent | *f(newline, end)* | ...
+indent | *f(indentChar)* | ...
+indentChar | *f(c)* | ...
+toIndent | *f(c)* | ...
+toEOL | *f(c)* | ...
+newline | *f(c)* | ...
+spc | *f(c)* | ...
+
+
+main = line+
+line = indent? spc? toEOL+ linetail
+linetail =   newline toIndent* -- withContent
+           | newline? end -- withoutContent
+indent = indentChar+
+indentChar = ("#" | "*")
+toIndent = ~indentChar any
+toEOL = ~newline any
+
+newline = "\n"
+spc = " "

@@ -1,0 +1,5 @@
+- term invented by those who can't see nuance
+- lack of focus = extreme divide and conquer
+- old people are not necessarily doddering fools, they simply perceive many layers of nuance that they can't explain to younger people
+- lack of focus is sometimes extreme forms of divide-and-conquer
+- 

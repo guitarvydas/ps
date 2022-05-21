@@ -1,0 +1,5 @@
+- early BASIC, early LISP, early "rapid prototyping" tools all targetted *design* over *compilation*
+- dynamic languages target *design* over *compilation*
+- static languages target *compilation* over *design*
+- compilation is Production Engineering, which is *optimization* 
+	- it is possible to optimize prematurely by using static languages (compiled languages, compilers) too soon in the process

@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "Nesting"
+---
+Nesting seems to be The Answer to everything in software.
+
+We conquered flat assembler programming with Structured Programming - basically drawing a box around a piece of code.
+
+We conquered "global variables" with scoping - another word for nesting.
+
+OO gave us nesting of data.  (But, OO does not provide nesting of control flow, in fact OO spaghettifies control flow (overriding, inheritance))
+
+FP lambdas (1st class functions) use The Stack to create dynamic, shared, nesting chains.
+
+Flowcharts nest control flow, but do not nest data.
+
+StateCharts nest control flow (and, flags, and, "the state explosion problem").
+
+In ASCII, we represent nesting using `{ ... }` and function definitions (local variables are nested inside functions).
+
+We draw boxes around code using ASCII instead of using 2D graphics.
+
+We draw flat pictures of trees.  These often represent nested structures, like Russian Dolls.  A "node" "below" another "node" is a representation of the node contained in the other node.
+
+[Containment === nesting].
+
+Parsing, unlike REGEX, can deal with nested text.
+
+PEG parsing can match balanced parentheses (actually, balanced anything).
+
+This kind of parsing allows us to get away even longer using ASCII Art to represent nested languages.
+
+*observation*: Nesting is needed only when the program does not fit in an eye-full (e.g. an editing window) ; corollary - we don't need nesting when code is only 5 lines long (in fact, global variables are not even a problem at that scale (in functional notation, lack-of-nesting is called "free variables"))
+
+# See Also
+
+[Table of Contents](https://guitarvydas.github.io/2021/12/10/Table-of-Contents-Dec-01-2021.html)
+[Blog](https://guitarvydas.github.io)
+[Videos](https://www.youtube.com/channel/UC9EJr0nKHwadbHUtc5zHdmQ/videos)
+[References](https://guitarvydas.github.io/2021/01/14/References.html)
+
+<script src="https://utteranc.es/client.js" 
+        repo="guitarvydas/guitarvydas.github.io" 
+        issue-term="pathname" 
+        theme="github-light" 
+        crossorigin="anonymous" 
+        async> 
+</script> 

@@ -1,0 +1,9 @@
+- concurrency is not parallelism
+	- often, the two are conflated
+- concurrency is a programming paradigm
+- parallelism is a specific solution that depends on the problem space and uses the concurrent paradigm
+- thread safety
+	- kludge to maintain invariants of concurrency
+	- tangled up with partial solutions to parallelism
+- smallest unit of concurrency
+	- O(10 bytes), not megabytes

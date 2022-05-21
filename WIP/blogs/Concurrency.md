@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "Concurrency"
+---
+
+# Model of Concurrency
+
+A simple concurrent system is:
+- two computers in separate rooms 
+- they are connected by a wire
+- they send messages to one another
+- the messages are one-way only, no "return" is expected.
+
+## Diagram
+
+<img src="https://github.com/guitarvydas/wheelreinvention/blob/master/Concurrency.png?raw=true" alt="Concurrency.png" style="zoom:67%;" />
+
+## Everything Else is an Optimization
+
+Every other feature of concurrency is an optimization of this model.
+
+- Memory Sharing
+- Timesharing (CPU sharing)
+- Multiple Cores.
+
+# Premature Optimization
+
+If you forget (ignore) what the basic model is, you will eventually run into trouble (aka *accidental complexity*).
+
+# See Also
+[Table of Contents](https://guitarvydas.github.io/2021/12/10/Table-of-Contents-Dec-01-2021.html)
+[Blog](https://guitarvydas.github.io)
+[Videos](https://www.youtube.com/channel/UC9EJr0nKHwadbHUtc5zHdmQ/videos)
+[References](https://guitarvydas.github.io/2021/01/14/References.html)
+
+<script src="https://utteranc.es/client.js" 
+        repo="guitarvydas/guitarvydas.github.io" 
+        issue-term="pathname" 
+        theme="github-light" 
+        crossorigin="anonymous" 
+        async> 
+</script> 

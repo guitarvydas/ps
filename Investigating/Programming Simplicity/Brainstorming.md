@@ -1,0 +1,30 @@
+- design
+	- not Production Engineering
+- songwriting
+	- yes, and ...
+- improv
+	- yes, and ...
+- exploring design space
+	- cannot know the solution before you know the problem
+	- need to explore, figure out, poke-at the problem
+	- spec <- spec can only be written after the problem-space has been understood
+		- Waterfall ≣ premature belief that the problem-space is fully understood
+- how to change your mind?
+	- if you discover a new aspect of the problem space
+		- are you constrained by your tool(s) to ignore the new aspect
+			- C programming is like that
+			- synchronous programming is like that
+				- fragile, change something -> breaks in unexpected place(s)
+			- wanted: "build and forget", no changes in other parts of the system can affect previously built program -> 0D
+- anti-academic
+	- academics are taught to "finish" a project before displaying it
+	- brainstorming is the opposite:
+		- talk about intermediate work
+		- "show your work for partial marks" grade school
+		- conferences and working papers are more like brainstorming
+- premature design is like premature optimization, but worse
+	- if a premature design is calcified as unchageable code, then -> garbage out
+- need to know that you can discard existing code
+	- Lisp allows rewriting the whole code base
+	- early BASICs, etc., kept programs small an had a low barrier to rewriting
+	- [[Build and Forget]]

@@ -1,0 +1,9 @@
+"x" -> ContainerObject(char="x")
+rule -> ContainerObject(*rule*)
+rule+ -> ContainerObject(ContainerObject(*rule*), length = 1...)
+rule* -> ContainerObject(ContainerObject(*rule*), length = 0...)
+rule? -> ContainerObject(ContainerObject(*rule*), length = [0|1])
+"A" .. "Z" -> ContainerObject(length = 1, char="??", range = ["A", "Z"]))
+
+rule = A B C
+-> ContainerObject(A, B, C)

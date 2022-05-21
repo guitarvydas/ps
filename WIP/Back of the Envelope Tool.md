@@ -1,0 +1,13 @@
+- Double-click to create box at cursor
+- drag one box onto another to create a link (first box doesn't change (x,y)
+- select a group of boxes, push them to another document (UX: delete boxes on current document, replace by one box)
+	- can't push unless all inter-connections are contained
+- edit innards of box
+	- text edit
+	- draw edit
+	- audio edit
+	- video edit
+	- URL edit (what does this mean?)
+	- edit markdown
+	- edit obsidian
+- move box (selection) to new (x,y)

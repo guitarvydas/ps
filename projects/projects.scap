@@ -1,0 +1,1410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.2" ID="D17B90D9-9502-41F1-9121-6DB4A29948A0">
+    <Notes>
+        <Note ID="0" FontSize="12.0" Position="231.877747,471.580811" Width="59.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>projects</String>
+            <ConnectedNoteIDs>7-11, 15, 47</ConnectedNoteIDs>
+        </Note>
+        <Note ID="1" FontSize="12.0" Position="570.0,361.0" Width="159.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>technocrats vs. artistocrats</String>
+            <ConnectedNoteIDs>2-3, 15, 20</ConnectedNoteIDs>
+        </Note>
+        <Note ID="2" FontSize="12.0" Position="742.822754,103.504883" Width="73.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>technocrat</String>
+            <ConnectedNoteIDs>1, 6, 18, 21, 26, 29, 31, 33, 38, 52</ConnectedNoteIDs>
+        </Note>
+        <Note ID="3" FontSize="12.0" Position="772.0,302.0" Width="69.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>artistocrat</String>
+            <ConnectedNoteIDs>1, 4-5, 22, 25, 28, 30, 32, 35</ConnectedNoteIDs>
+        </Note>
+        <Note ID="4" FontSize="12.0" Position="875.146606,303.419983" Width="89.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>brainstorming</String>
+            <ConnectedNoteIDs>3, 17</ConnectedNoteIDs>
+        </Note>
+        <Note ID="5" FontSize="12.0" Position="875.866028,378.638367" Width="163.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>What it means to be human</String>
+            <ConnectedNoteIDs>3, 155</ConnectedNoteIDs>
+        </Note>
+        <Note ID="6" FontSize="12.0" Position="822.792236,21.758682" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>Break everything down into components like atoms</String>
+            <ConnectedNoteIDs>2, 34</ConnectedNoteIDs>
+        </Note>
+        <Note ID="7" FontSize="12.0" Position="373.877747,557.580811" Width="51.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>eh-dot</String>
+            <ConnectedNoteIDs>0, 39</ConnectedNoteIDs>
+        </Note>
+        <Note ID="8" FontSize="12.0" Position="372.877747,598.580811" Width="35.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>cos</String>
+            <ConnectedNoteIDs>0</ConnectedNoteIDs>
+        </Note>
+        <Note ID="9" FontSize="12.0" Position="375.877747,639.580811" Width="72.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>d2f as das</String>
+            <ConnectedNoteIDs>0</ConnectedNoteIDs>
+        </Note>
+        <Note ID="10" FontSize="12.0" Position="386.877747,685.580811" Width="88.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>mvmd to json</String>
+            <ConnectedNoteIDs>0</ConnectedNoteIDs>
+        </Note>
+        <Note ID="11" FontSize="12.0" Position="381.877747,763.580811" Width="49.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>books</String>
+            <ConnectedNoteIDs>0, 12-14</ConnectedNoteIDs>
+        </Note>
+        <Note ID="12" FontSize="12.0" Position="541.877747,740.580811" Width="76.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>Takeaways</String>
+            <ConnectedNoteIDs>11</ConnectedNoteIDs>
+        </Note>
+        <Note ID="13" FontSize="12.0" Position="543.877747,786.580811" Width="94.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>parsing idioms</String>
+            <ConnectedNoteIDs>11</ConnectedNoteIDs>
+        </Note>
+        <Note ID="14" FontSize="12.0" Position="545.639282,835.491638" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>If it doesn't fit on a T-shirt, zoom out</String>
+            <ConnectedNoteIDs>11</ConnectedNoteIDs>
+        </Note>
+        <Note ID="15" FontSize="12.0" Position="376.599457,449.545166" Width="54.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>essays</String>
+            <ConnectedNoteIDs>0-1, 23, 40</ConnectedNoteIDs>
+        </Note>
+        <Note ID="16" FontSize="12.0" Position="997.97821,536.62561" Width="131.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>particle wave duality?</String>
+            <ConnectedNoteIDs>20</ConnectedNoteIDs>
+        </Note>
+        <Note ID="17" FontSize="12.0" Position="998.610413,290.603485" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>generating ideas by interaction with others</String>
+            <ConnectedNoteIDs>4</ConnectedNoteIDs>
+        </Note>
+        <Note ID="18" FontSize="12.0" Position="1000.292725,125.480957" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>generating ideas by extrapolating theories</String>
+            <ConnectedNoteIDs>2</ConnectedNoteIDs>
+        </Note>
+        <Note ID="19" FontSize="12.0" Position="991.971252,599.46344" Width="64.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>science?</String>
+            <ConnectedNoteIDs>20</ConnectedNoteIDs>
+        </Note>
+        <Note ID="20" FontSize="12.0" Position="826.323181,472.878601" Width="137.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>questions / coundrums</String>
+            <ConnectedNoteIDs>1, 16, 19</ConnectedNoteIDs>
+        </Note>
+        <Note ID="21" FontSize="12.0" Position="1072.538574,215.458725" Width="114.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>religion of atheism</String>
+            <ConnectedNoteIDs>2, 55</ConnectedNoteIDs>
+        </Note>
+        <Note ID="22" FontSize="12.0" Position="1115.610352,340.603485" Width="96.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>theistic religion</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="23" FontSize="12.0" Position="571.888489,503.994568" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>an operating system is a state machine</String>
+            <ConnectedNoteIDs>15, 24, 54</ConnectedNoteIDs>
+        </Note>
+        <Note ID="24" FontSize="12.0" Position="700.877747,584.320312" Width="133.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>sequences various λs</String>
+            <ConnectedNoteIDs>23</ConnectedNoteIDs>
+        </Note>
+        <Note ID="25" FontSize="12.0" Position="1187.610352,388.603485" Width="63.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>extrovert</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="26" FontSize="12.0" Position="1227.822754,93.504883" Width="60.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>introvert</String>
+            <ConnectedNoteIDs>2</ConnectedNoteIDs>
+        </Note>
+        <Note ID="27" FontSize="12.0" Position="1471.049072,87.093842" Width="43.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>agda</String>
+            <ConnectedNoteIDs>38</ConnectedNoteIDs>
+        </Note>
+        <Note ID="28" FontSize="12.0" Position="1335.418701,330.475983" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>javascript, basic, dynamic languages</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="29" FontSize="12.0" Position="1345.822754,99.504883" Width="93.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>Type checking</String>
+            <ConnectedNoteIDs>2</ConnectedNoteIDs>
+        </Note>
+        <Note ID="30" FontSize="12.0" Position="1138.610352,432.603485" Width="52.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>design</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="31" FontSize="12.0" Position="1252.822754,139.504883" Width="81.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>optimization</String>
+            <ConnectedNoteIDs>2</ConnectedNoteIDs>
+        </Note>
+        <Note ID="32" FontSize="12.0" Position="1251.610352,434.603485" Width="75.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>democracy</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="33" FontSize="12.0" Position="1335.385986,7.529892" Width="57.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>fascism</String>
+            <ConnectedNoteIDs>2</ConnectedNoteIDs>
+        </Note>
+        <Note ID="34" FontSize="12.0" Position="1065.0,2.0" Width="61.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>particles</String>
+            <ConnectedNoteIDs>6, 37</ConnectedNoteIDs>
+        </Note>
+        <Note ID="35" FontSize="12.0" Position="898.0,246.0" Width="51.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>waves</String>
+            <ConnectedNoteIDs>3, 36</ConnectedNoteIDs>
+        </Note>
+        <Note ID="36" FontSize="12.0" Position="975.0,233.0" Width="79.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>frequencies</String>
+            <ConnectedNoteIDs>35</ConnectedNoteIDs>
+        </Note>
+        <Note ID="37" FontSize="12.0" Position="1150.0,0.0" Width="51.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>matter</String>
+            <ConnectedNoteIDs>34</ConnectedNoteIDs>
+        </Note>
+        <Note ID="38" FontSize="12.0" Position="1340.303223,63.419601" Width="103.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>static languages</String>
+            <ConnectedNoteIDs>2, 27</ConnectedNoteIDs>
+        </Note>
+        <Note ID="39" FontSize="12.0" Position="462.0,559.0" Width="23.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>ė</String>
+            <ConnectedNoteIDs>7</ConnectedNoteIDs>
+        </Note>
+        <Note ID="40" FontSize="12.0" Position="724.939209,647.823364" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>why is concurrency vs synchrony important?</String>
+            <ConnectedNoteIDs>15</ConnectedNoteIDs>
+        </Note>
+        <Note ID="41" FontSize="12.0" Position="847.0,700.0" Width="36.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>cde</String>
+        </Note>
+        <Note ID="42" FontSize="12.0" Position="854.0,739.0" Width="165.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>programming is 1-trick pony</String>
+        </Note>
+        <Note ID="43" FontSize="12.0" Position="858.0,770.0" Width="119.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>i want a hamburger</String>
+        </Note>
+        <Note ID="44" FontSize="12.0" Position="866.0,809.0" Width="87.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>on sector lisp</String>
+        </Note>
+        <Note ID="45" FontSize="12.0" Position="865.0,840.0" Width="108.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>primal computing</String>
+        </Note>
+        <Note ID="46" FontSize="12.0" Position="1053.0,706.0" Width="75.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>statecharts</String>
+        </Note>
+        <Note ID="47" FontSize="12.0" Position="385.0,916.0" Width="40.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>todo</String>
+            <ConnectedNoteIDs>0, 48-49, 65-66</ConnectedNoteIDs>
+        </Note>
+        <Note ID="48" FontSize="12.0" Position="465.0,920.0" Width="42.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>UXN</String>
+            <ConnectedNoteIDs>47</ConnectedNoteIDs>
+        </Note>
+        <Note ID="49" FontSize="12.0" Position="463.417023,963.634399" Width="103.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>obsidian plugins</String>
+            <ConnectedNoteIDs>47, 50</ConnectedNoteIDs>
+        </Note>
+        <Note ID="50" FontSize="12.0" Position="588.0,962.0" Width="71.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>asc plugin</String>
+            <ConnectedNoteIDs>49</ConnectedNoteIDs>
+        </Note>
+        <Note ID="51" FontSize="12.0" Position="1057.0,749.0" Width="133.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>what makes a plugin?</String>
+        </Note>
+        <Note ID="52" FontSize="12.0" Position="1172.0,183.0" Width="52.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>editing</String>
+            <ConnectedNoteIDs>2, 53</ConnectedNoteIDs>
+        </Note>
+        <Note ID="53" FontSize="12.0" Position="1259.0,202.0" Width="75.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>self-editing</String>
+            <ConnectedNoteIDs>52</ConnectedNoteIDs>
+        </Note>
+        <Note ID="54" FontSize="12.0" Position="738.207397,547.876099" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>ready running blocked are states</String>
+            <ConnectedNoteIDs>23</ConnectedNoteIDs>
+        </Note>
+        <Note ID="55" FontSize="12.0" Position="1307.333496,239.507355" Width="104.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>notation worship</String>
+            <ConnectedNoteIDs>21</ConnectedNoteIDs>
+        </Note>
+        <Note ID="56" FontSize="12.0" Position="437.0,717.0" Width="43.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>ROS</String>
+        </Note>
+        <Note ID="57" FontSize="12.0" Position="868.139526,876.748901" Width="95.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>microware os9</String>
+        </Note>
+        <Note ID="58" FontSize="12.0" Position="1203.267944,659.986511" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>if you have to model it, then it is not a 1st class concept in the notation</String>
+        </Note>
+        <Note ID="59" FontSize="12.0" Position="861.0,948.0" Width="51.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>Speed</String>
+            <ConnectedNoteIDs>60</ConnectedNoteIDs>
+        </Note>
+        <Note ID="60" FontSize="12.0" Position="892.0,992.0" Width="118.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>divide and conquer</String>
+            <ConnectedNoteIDs>59, 61-62</ConnectedNoteIDs>
+        </Note>
+        <Note ID="61" FontSize="12.0" Position="1052.0,957.0" Width="52.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>design</String>
+            <ConnectedNoteIDs>60</ConnectedNoteIDs>
+        </Note>
+        <Note ID="62" FontSize="12.0" Position="1058.0,1016.0" Width="139.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>production engineering</String>
+            <ConnectedNoteIDs>60</ConnectedNoteIDs>
+        </Note>
+        <Note ID="63" FontSize="12.0" Position="468.756287,1038.604492" Width="221.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>excalidraw
+https://www.youtube.com/watch?v=_YJUv1m_fnM&amp;t=85s</String>
+            <ConnectedNoteIDs>65</ConnectedNoteIDs>
+        </Note>
+        <Note ID="64" FontSize="12.0" Position="495.264771,1117.797363" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>https://www.reddit.com/r/ObsidianMD/comments/s58d2o/just_discovered_the_excalidraw_plugin_for/</String>
+            <ConnectedNoteIDs>65</ConnectedNoteIDs>
+        </Note>
+        <Note ID="65" FontSize="12.0" Position="424.0,1006.0" Width="73.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>excalidraw</String>
+            <ConnectedNoteIDs>47, 63-64</ConnectedNoteIDs>
+        </Note>
+        <Note ID="66" FontSize="12.0" Position="475.0,1202.0" Width="73.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>md for das</String>
+            <ConnectedNoteIDs>47</ConnectedNoteIDs>
+        </Note>
+        <Note ID="67" FontSize="12.0" Position="1454.0,547.0" Width="98.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>Consciousness</String>
+            <ConnectedNoteIDs>68</ConnectedNoteIDs>
+        </Note>
+        <Note ID="68" FontSize="12.0" Position="1579.0,554.0" Width="159.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>quantum of consciousness</String>
+            <ConnectedNoteIDs>67, 69</ConnectedNoteIDs>
+        </Note>
+        <Note ID="69" FontSize="12.0" Position="1594.0,593.0" Width="102.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>quorum sensing</String>
+            <ConnectedNoteIDs>68, 81</ConnectedNoteIDs>
+        </Note>
+        <Note ID="70" FontSize="12.0" Position="1475.0,663.0" Width="140.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>no need to understand </String>
+            <ConnectedNoteIDs>74</ConnectedNoteIDs>
+        </Note>
+        <Note ID="71" FontSize="12.0" Position="1506.0,505.0" Width="65.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>Engineer</String>
+        </Note>
+        <Note ID="72" FontSize="12.0" Position="1544.0,635.0" Width="63.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>Architect</String>
+        </Note>
+        <Note ID="73" FontSize="12.0" Position="1518.593506,480.749512" Width="183.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>understand / explain everything</String>
+        </Note>
+        <Note ID="74" FontSize="12.0" Position="1500.0,693.0" Width="99.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>go with the flow</String>
+            <ConnectedNoteIDs>70, 75</ConnectedNoteIDs>
+        </Note>
+        <Note ID="75" FontSize="12.0" Position="1543.181396,720.934814" Width="75.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>in the zone</String>
+            <ConnectedNoteIDs>74</ConnectedNoteIDs>
+        </Note>
+        <Note ID="76" FontSize="12.0" Position="1568.0,436.0" Width="59.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>Science</String>
+            <ConnectedNoteIDs>77-79</ConnectedNoteIDs>
+        </Note>
+        <Note ID="77" FontSize="12.0" Position="1668.0,418.0" Width="85.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>not practiced</String>
+            <ConnectedNoteIDs>76</ConnectedNoteIDs>
+        </Note>
+        <Note ID="78" FontSize="12.0" Position="1681.247192,447.753662" Width="115.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>religion of Science</String>
+            <ConnectedNoteIDs>76</ConnectedNoteIDs>
+        </Note>
+        <Note ID="79" FontSize="12.0" Position="1623.208008,378.222961" Width="104.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>notation worship</String>
+            <ConnectedNoteIDs>76, 80, 139, 141</ConnectedNoteIDs>
+        </Note>
+        <Note ID="80" FontSize="12.0" Position="1737.558228,325.687012" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>if notation explains something, it must be useful for explaining everything</String>
+            <ConnectedNoteIDs>79</ConnectedNoteIDs>
+        </Note>
+        <Note ID="81" FontSize="12.0" Position="1738.0,596.0" Width="97.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>Bonnie Bassler</String>
+            <ConnectedNoteIDs>69</ConnectedNoteIDs>
+        </Note>
+        <Note ID="82" FontSize="12.0" Position="1682.0,520.0" Width="86.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>Evolution 2.0</String>
+        </Note>
+        <Note ID="83" FontSize="12.0" Position="1109.0,577.0" Width="122.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>multiple dimensions</String>
+        </Note>
+        <Note ID="84" FontSize="12.0" Position="1117.0,612.0" Width="111.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>Farrell - Astrology</String>
+        </Note>
+        <Note ID="85" FontSize="12.0" Position="1341.0,801.0" Width="45.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>Hitler</String>
+            <ConnectedNoteIDs>86</ConnectedNoteIDs>
+        </Note>
+        <Note ID="86" FontSize="12.0" Position="1421.0,785.0" Width="77.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>conundrum</String>
+            <ConnectedNoteIDs>85, 87-88</ConnectedNoteIDs>
+        </Note>
+        <Note ID="87" FontSize="12.0" Position="1528.0,782.0" Width="48.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>occult</String>
+            <ConnectedNoteIDs>86</ConnectedNoteIDs>
+        </Note>
+        <Note ID="88" FontSize="12.0" Position="1529.0,815.0" Width="89.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>regimentation</String>
+            <ConnectedNoteIDs>86</ConnectedNoteIDs>
+        </Note>
+        <Note ID="89" FontSize="12.0" Position="1576.0,284.0" Width="109.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>trains run on time</String>
+        </Note>
+        <Note ID="91" FontSize="12.0" Position="1588.0,135.0" Width="71.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>synchrony</String>
+            <ConnectedNoteIDs>92</ConnectedNoteIDs>
+        </Note>
+        <Note ID="92" FontSize="12.0" Position="1702.637085,109.153992" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>analyze by breaking down into synchronous steps</String>
+            <ConnectedNoteIDs>91</ConnectedNoteIDs>
+        </Note>
+        <Note ID="93" FontSize="12.0" Position="1676.941895,638.560486" Width="82.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>concurrency</String>
+            <ConnectedNoteIDs>94-95</ConnectedNoteIDs>
+        </Note>
+        <Note ID="94" FontSize="12.0" Position="1745.192749,669.428894" Width="193.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>interaction with people</String>
+            <ConnectedNoteIDs>93</ConnectedNoteIDs>
+        </Note>
+        <Note ID="95" FontSize="12.0" Position="1761.0,697.0" Width="173.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>independence, not synchrony</String>
+            <ConnectedNoteIDs>93</ConnectedNoteIDs>
+        </Note>
+        <Note ID="96" FontSize="12.0" Position="1698.0,773.0" Width="57.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>billiards</String>
+            <ConnectedNoteIDs>97-98</ConnectedNoteIDs>
+        </Note>
+        <Note ID="97" FontSize="12.0" Position="1779.0,760.0" Width="64.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>slam ball</String>
+            <ConnectedNoteIDs>96</ConnectedNoteIDs>
+        </Note>
+        <Note ID="98" FontSize="12.0" Position="1779.0,791.0" Width="103.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>gently move ball</String>
+            <ConnectedNoteIDs>96, 99-100</ConnectedNoteIDs>
+        </Note>
+        <Note ID="99" FontSize="12.0" Position="1846.0,826.0" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>English</String>
+            <ConnectedNoteIDs>98</ConnectedNoteIDs>
+        </Note>
+        <Note ID="100" FontSize="12.0" Position="1911.0,785.0" Width="123.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>Rempe practice ball</String>
+            <ConnectedNoteIDs>98</ConnectedNoteIDs>
+        </Note>
+        <Note ID="101" FontSize="12.0" Position="1691.538208,859.807068" Width="36.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>golf</String>
+            <ConnectedNoteIDs>102-103, 123</ConnectedNoteIDs>
+        </Note>
+        <Note ID="102" FontSize="12.0" Position="1748.0,853.0" Width="29.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>hit</String>
+            <ConnectedNoteIDs>101, 119</ConnectedNoteIDs>
+        </Note>
+        <Note ID="103" FontSize="12.0" Position="1746.0,884.0" Width="47.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>swing</String>
+            <ConnectedNoteIDs>101, 104, 117-118</ConnectedNoteIDs>
+        </Note>
+        <Note ID="104" FontSize="12.0" Position="1816.0,873.0" Width="135.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>refuse to teach putting</String>
+            <ConnectedNoteIDs>103</ConnectedNoteIDs>
+        </Note>
+        <Note ID="105" FontSize="12.0" Position="1711.0,943.0" Width="77.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>songwriting</String>
+            <ConnectedNoteIDs>106-108</ConnectedNoteIDs>
+        </Note>
+        <Note ID="106" FontSize="12.0" Position="1811.0,938.0" Width="85.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>music theory</String>
+            <ConnectedNoteIDs>105</ConnectedNoteIDs>
+        </Note>
+        <Note ID="107" FontSize="12.0" Position="1807.0,971.0" Width="77.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>ear training</String>
+            <ConnectedNoteIDs>105</ConnectedNoteIDs>
+        </Note>
+        <Note ID="108" FontSize="12.0" Position="1808.0,1000.0" Width="44.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>lyrics</String>
+            <ConnectedNoteIDs>105, 109</ConnectedNoteIDs>
+        </Note>
+        <Note ID="109" FontSize="12.0" Position="1863.0,1016.0" Width="81.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>Pat Pattison</String>
+            <ConnectedNoteIDs>108</ConnectedNoteIDs>
+        </Note>
+        <Note ID="110" FontSize="12.0" Position="1857.0,535.0" Width="68.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>Electricity</String>
+            <ConnectedNoteIDs>111, 113</ConnectedNoteIDs>
+        </Note>
+        <Note ID="111" FontSize="12.0" Position="1931.212524,506.000977" Width="114.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>what is electricity?</String>
+            <ConnectedNoteIDs>110, 112</ConnectedNoteIDs>
+        </Note>
+        <Note ID="112" FontSize="12.0" Position="1964.054199,536.881836" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>we use electricity, but don’t know what it is</String>
+            <ConnectedNoteIDs>111</ConnectedNoteIDs>
+        </Note>
+        <Note ID="113" FontSize="12.0" Position="1928.407227,591.176025" Width="157.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>earliest use of elec motors</String>
+            <ConnectedNoteIDs>110, 142</ConnectedNoteIDs>
+        </Note>
+        <Note ID="114" FontSize="12.0" Position="1983.0,692.0" Width="113.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>desktop metaphor</String>
+            <ConnectedNoteIDs>140</ConnectedNoteIDs>
+        </Note>
+        <Note ID="115" FontSize="12.0" Position="1869.0,431.0" Width="113.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>Science of Design</String>
+            <ConnectedNoteIDs>116</ConnectedNoteIDs>
+        </Note>
+        <Note ID="116" FontSize="12.0" Position="2007.279907,420.461487" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>UX</String>
+            <ConnectedNoteIDs>115</ConnectedNoteIDs>
+        </Note>
+        <Note ID="117" FontSize="12.0" Position="1829.0,901.0" Width="84.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>work the ball</String>
+            <ConnectedNoteIDs>103</ConnectedNoteIDs>
+        </Note>
+        <Note ID="118" FontSize="12.0" Position="1944.0,912.0" Width="108.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>feel the clubhead</String>
+            <ConnectedNoteIDs>103</ConnectedNoteIDs>
+        </Note>
+        <Note ID="119" FontSize="12.0" Position="1946.067017,836.464966" Width="61.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>distance</String>
+            <ConnectedNoteIDs>102</ConnectedNoteIDs>
+        </Note>
+        <Note ID="120" FontSize="12.0" Position="1866.0,380.0" Width="145.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>religion of measurement</String>
+            <ConnectedNoteIDs>121-122</ConnectedNoteIDs>
+        </Note>
+        <Note ID="121" FontSize="12.0" Position="2045.782104,355.215179" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>trap: reality described by what can be measured</String>
+            <ConnectedNoteIDs>120</ConnectedNoteIDs>
+        </Note>
+        <Note ID="122" FontSize="12.0" Position="2087.0,401.0" Width="111.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>audiophile vs. CD</String>
+            <ConnectedNoteIDs>120</ConnectedNoteIDs>
+        </Note>
+        <Note ID="123" FontSize="12.0" Position="2042.0,851.0" Width="97.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>ball regulations</String>
+            <ConnectedNoteIDs>101, 124-125</ConnectedNoteIDs>
+        </Note>
+        <Note ID="124" FontSize="12.0" Position="2080.0,877.0" Width="61.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>distance</String>
+            <ConnectedNoteIDs>123</ConnectedNoteIDs>
+        </Note>
+        <Note ID="125" FontSize="12.0" Position="2086.0,908.0" Width="52.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>friction</String>
+            <ConnectedNoteIDs>123</ConnectedNoteIDs>
+        </Note>
+        <Note ID="126" FontSize="12.0" Position="1919.0,959.0" Width="190.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>a song is not the same as poetry</String>
+            <ConnectedNoteIDs>133</ConnectedNoteIDs>
+        </Note>
+        <Note ID="127" FontSize="12.0" Position="1945.084473,989.429443" Width="34.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>rap</String>
+            <ConnectedNoteIDs>128-130, 132</ConnectedNoteIDs>
+        </Note>
+        <Note ID="128" FontSize="12.0" Position="2000.0,991.0" Width="146.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>lyric tension and release</String>
+            <ConnectedNoteIDs>127</ConnectedNoteIDs>
+        </Note>
+        <Note ID="129" FontSize="12.0" Position="2011.0,1017.0" Width="51.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String># lines</String>
+            <ConnectedNoteIDs>127</ConnectedNoteIDs>
+        </Note>
+        <Note ID="130" FontSize="12.0" Position="2014.613159,1043.126343" Width="213.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>changing meter - # words in phrase</String>
+            <ConnectedNoteIDs>127</ConnectedNoteIDs>
+        </Note>
+        <Note ID="131" FontSize="12.0" Position="2021.0,1080.0" Width="115.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>accented syllables</String>
+        </Note>
+        <Note ID="132" FontSize="12.0" Position="2107.0,1019.0" Width="71.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>line length</String>
+            <ConnectedNoteIDs>127</ConnectedNoteIDs>
+        </Note>
+        <Note ID="133" FontSize="12.0" Position="2158.0,962.0" Width="113.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>rhyme vs b-rhyme</String>
+            <ConnectedNoteIDs>126</ConnectedNoteIDs>
+        </Note>
+        <Note ID="134" FontSize="12.0" Position="2217.0,986.0" Width="175.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>tension, relief in rhyme choice</String>
+        </Note>
+        <Note ID="135" FontSize="12.0" Position="1344.0,866.0" Width="168.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>freemasonry, occult religions</String>
+            <ConnectedNoteIDs>151</ConnectedNoteIDs>
+        </Note>
+        <Note ID="136" FontSize="12.0" Position="1350.0,908.0" Width="75.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>Bill Cooper</String>
+        </Note>
+        <Note ID="137" FontSize="12.0" Position="1357.0,946.0" Width="143.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>One World Government</String>
+        </Note>
+        <Note ID="138" FontSize="12.0" Position="1359.0,987.0" Width="132.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>something for nothing</String>
+        </Note>
+        <Note ID="139" FontSize="12.0" Position="1779.261719,297.406464" Width="92.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>one-trick pony</String>
+            <ConnectedNoteIDs>79</ConnectedNoteIDs>
+        </Note>
+        <Note ID="140" FontSize="12.0" Position="2104.0,676.0" Width="196.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>need new concepts for computing</String>
+            <ConnectedNoteIDs>114</ConnectedNoteIDs>
+        </Note>
+        <Note ID="141" FontSize="12.0" Position="1905.658936,284.463867" Width="242.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>Ilya … Nobel laureate Order Out of Chaos - rant against functional-only thinking</String>
+            <ConnectedNoteIDs>79</ConnectedNoteIDs>
+        </Note>
+        <Note ID="142" FontSize="12.0" Position="2110.341309,597.219177" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>push water uphill to create artificial river to run textile mills</String>
+            <ConnectedNoteIDs>113</ConnectedNoteIDs>
+        </Note>
+        <Note ID="143" FontSize="12.0" Position="1758.0,1121.0" Width="44.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>7 +-2</String>
+        </Note>
+        <Note ID="144" FontSize="12.0" Position="1359.0,1031.0" Width="118.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>divide and conquer</String>
+        </Note>
+        <Note ID="145" FontSize="12.0" Position="1511.0,1032.0" Width="159.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>split everything into 2 parts</String>
+        </Note>
+        <Note ID="146" FontSize="12.0" Position="2073.0,723.0" Width="235.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>details ; doesn’t matter if flow is broken</String>
+        </Note>
+        <Note ID="147" FontSize="12.0" Position="2144.0,764.0" Width="59.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>2 layers</String>
+        </Note>
+        <Note ID="148" FontSize="12.0" Position="1881.0,1135.0" Width="93.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>multiple layers</String>
+        </Note>
+        <Note ID="149" FontSize="12.0" Position="1361.0,1079.0" Width="179.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>right brain vs left brain thinking</String>
+        </Note>
+        <Note ID="150" FontSize="12.0" Position="450.0,1254.0" Width="126.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>Orion Delta software</String>
+        </Note>
+        <Note ID="151" FontSize="12.0" Position="1526.0,870.0" Width="101.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>mystery religion</String>
+            <ConnectedNoteIDs>135</ConnectedNoteIDs>
+        </Note>
+        <Note ID="152" FontSize="12.0" Position="2089.330566,452.759277" Width="77.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>dark matter</String>
+        </Note>
+        <Note ID="153" FontSize="12.0" Position="2124.445312,481.125763" Width="123.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>atoms -&gt; sub-atoms</String>
+        </Note>
+        <Note ID="154" FontSize="12.0" Position="1784.0,1199.0" Width="141.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>free will vs. dictatorship</String>
+        </Note>
+        <Note ID="155" FontSize="12.0" Position="916.473999,419.364136" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1"></Border>
+                <Fill>0.751286 0.937851 0.984426</Fill>
+            </Appearance>
+            <String>who gets to decide what this means?</String>
+            <ConnectedNoteIDs>5</ConnectedNoteIDs>
+        </Note>
+    </Notes>
+    <BackgroundShapes></BackgroundShapes>
+    <AutoFit>0-5, 7-13, 15-16, 19-22, 24-27, 29-39, 41-53, 55-57, 59-62, 65-79, 81-89, 91, 93, 95-111, 113-120, 122-129, 131-140, 143-145, 147-154</AutoFit>
+    <NoteStyles>
+        <Style Name="Bubble (Blue)" ID="5737E7D7-2275-45E9-B656-9B5B8072ADFA" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.668962 0.810287 0.895092</BorderColor>
+            <FillColor>0.743291 0.900319 0.994547</FillColor>
+        </Style>
+        <Style Name="Bubble (Green)" ID="E4B26AD1-EFC8-4FEF-B132-C029C98DBC1A" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.669404 0.885265 0.567007</BorderColor>
+            <FillColor>0.743783 0.983628 0.630008</FillColor>
+        </Style>
+        <Style Name="Bubble (Pink)" ID="2D324647-C758-4FE4-B0ED-8B768F2B7278" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+            <FillColor>0.989115 0.814114 0.999483</FillColor>
+        </Style>
+        <Style Name="Bubble (Red)" ID="D1A79D11-F570-4581-A127-37E2F6606D8E" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+            <FillColor>0.993942 0.786413 0.795449</FillColor>
+        </Style>
+        <Style Name="Bubble (Yellow)" ID="79933246-5C38-4DB0-817B-C7B510276C07" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.877748 0.828289 0.562126</BorderColor>
+            <FillColor>0.975275 0.920321 0.624585</FillColor>
+        </Style>
+        <Style Name="Red Text" ID="FDEFF271-CE5A-43DF-87F4-812A2273CF0B" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>0.985954 0.0 0.02694</TextColor>
+        </Style>
+        <Style Name="Title Text" ID="C0802814-A04E-4259-A080-29BF32F9471E" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999763 0.988395 0.949915</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+        <NoteXPadding>8.0</NoteXPadding>
+    </UISettings>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>

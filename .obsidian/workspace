@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "72d9280a69b3c077",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd4a181efacf48e7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "WIP/ė - Concurrent Lambdas Working Paper 4/A Use-Case For Fanout.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2e69fdda30029f7a",
+    "type": "split",
+    "children": [
+      {
+        "id": "74646097bdd9e4a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f4307e96e9f5528e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "8656c314b2c75fab",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "play",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a181051da480d13e",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 376.0107650756836
+  },
+  "right": {
+    "id": "4cf47ab93b12bd16",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f8cd97b3b65c191",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "642402b65a6df1e6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "WIP/ė - Concurrent Lambdas Working Paper 4/A Use-Case For Fanout.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c1e170793f5599bd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "63c5e5d53e32b3c2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "WIP/ė - Concurrent Lambdas Working Paper 4/A Use-Case For Fanout.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0ba2315da904a7d4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "WIP/ė - Concurrent Lambdas Working Paper 4/A Use-Case For Fanout.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "dd4a181efacf48e7",
+  "lastOpenFiles": [
+    "WIP/ė - Concurrent Lambdas Working Paper 4/A Use-Case For Fanout.md",
+    "WIP/ė - Concurrent Lambdas Working Paper 4/Bounded Queues.md",
+    "WIP/ė - Concurrent Lambdas Working Paper 4/Functions.md",
+    "WIP/ė - Concurrent Lambdas Working Paper 4/Program Atoms.md",
+    "WIP/ė - Concurrent Lambdas Working Paper 3/Diagram ė Output Routing For Containers.md",
+    "WIP/ė - Concurrent Lambdas Working Paper 3/Diagram Findconnection ė.md",
+    "WIP/ė - Concurrent Lambdas Working Paper 3/Diagram ė handling.md",
+    "WIP/ė - Concurrent Lambdas Working Paper 3/ASCII Art ė.md",
+    "WIP/ė - Concurrent Lambdas Working Paper 4/Copy On Write.md",
+    "ė Working Paper 3.md"
+  ]
+}

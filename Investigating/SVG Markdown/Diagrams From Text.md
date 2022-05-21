@@ -1,0 +1,1 @@
+ Creating diagrams from text is a mind-virus that holds us back.
