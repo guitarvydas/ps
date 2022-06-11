@@ -7,6 +7,6 @@ Concurrency Is A Healthy Lifestyle, Parallelism Is A Greasy Hamburger [[Essays/C
 ## Working Papers
 Diagrams to JSON: [[WIP/Diagrams to JSON]]
 0D programming (WIP): [[hamburgerworkbench0D/Hamburger Workbench 0D]]
-Ohm-JS: [[I Want A Hamburger]]
+Ohm-JS: [[%Hamburger Workbench - A Gentle Introduction to Ohm-JS/I Want A Hamburger]]
 ## Non-Programming
 [[Music]]

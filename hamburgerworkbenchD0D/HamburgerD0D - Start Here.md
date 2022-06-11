@@ -7,6 +7,10 @@ Goal:
 [[Screenshot Hamburger Workbench]]
 
 ## Diagram Programs
+Note: this, DaS (Diagrams as Syntax) is not the same as what is called VPL (Visual Programming Languages).  The diagrams below are a hybrid of text plus very simple visual elements (rectangles, ellipses, lines, text).
+
+Note: the diagrams below were created using draw.io, but, any convenient-to-use SVG editor would do.
+
 [[Diagram The Workbench]]
 [[Diagram The Workbench With Probes]]
 [[Diagram Step]]
@@ -40,7 +44,7 @@ Goal:
 [[JS Handling]]
 [[JS Routing]]
 [[JS Step]]
-[[JS Component Operting System]]
+[[JS Component Operating System]]
 
 ## Transpilers
 [[Transpiler DaS]]

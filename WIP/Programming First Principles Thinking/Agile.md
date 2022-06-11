@@ -1,0 +1,1 @@
+Agile is a new variant on a concept that used to be called *rapid prototyping*.

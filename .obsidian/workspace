@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "dd4a181efacf48e7",
+        "id": "6876271b070b94bf",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "Pattern Matching.md",
             "mode": "source",
             "source": false
           }
@@ -40,10 +40,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "play",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Pattern Matching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Pattern Matching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Pattern Matching.md"
               }
             }
           }
@@ -128,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "dd4a181efacf48e7",
+  "active": "6876271b070b94bf",
   "lastOpenFiles": [
-    "README.md",
-    "WIP/ė - Concurrent Lambdas Working Paper 4/A Use-Case For Fanout.md",
-    "WIP/ė - Concurrent Lambdas Working Paper 4/Bounded Queues.md",
-    "WIP/ė - Concurrent Lambdas Working Paper 4/Functions.md",
-    "WIP/ė - Concurrent Lambdas Working Paper 4/Program Atoms.md",
-    "WIP/ė - Concurrent Lambdas Working Paper 3/Diagram ė Output Routing For Containers.md",
-    "WIP/ė - Concurrent Lambdas Working Paper 3/Diagram Findconnection ė.md",
-    "WIP/ė - Concurrent Lambdas Working Paper 3/Diagram ė handling.md",
-    "WIP/ė - Concurrent Lambdas Working Paper 3/ASCII Art ė.md",
-    "WIP/ė - Concurrent Lambdas Working Paper 4/Copy On Write.md"
+    "Pattern Matching.md",
+    "pm Hamburger workbench.md",
+    "pm Small steps.md",
+    "pm Other Features of Ohm-JS.md",
+    "pm introduction.md",
+    "pm Getting started.md",
+    "pm Ohm-JS Introduction.md",
+    "2022-05-30-Symbols.md",
+    "Golf Swing vs Grip.md",
+    "pm/gettingstarted/Failed.png"
   ]
 }

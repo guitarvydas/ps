@@ -5,11 +5,11 @@ requirements:
 
 ### Composition
 - zero (0)-dependency components
-	- [[@zero-dependency components]]
+	- [[yy-@zero-dependency components]]
 
 
-[[@Paradigms]]
-[[@Syntaxes]]
+[[yy-@Paradigms]]
+[[yy-@Syntaxes]]
 
 ### Syntaxes
 - wrap any number of syntaxes over a paradigm

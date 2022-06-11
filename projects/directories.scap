@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.2" ID="8F5ED7F5-6F55-4BBA-80E3-1EE0652CB8E0">
+  <Notes>
+    <Note ID="0" FontSize="12.0" Position="115.0,162.0" Width="66.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183115959167 0.7627586722373962 0.7658078670501709</Border>
+        <Fill>0.9948 0.8577 0.9998</Fill>
+      </Appearance>
+      <String>quicklisp/</String>
+      <ConnectedNoteIDs>1</ConnectedNoteIDs>
+    </Note>
+    <Note ID="1" FontSize="12.0" Position="157.0,196.0" Width="91.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183115959167 0.7627586722373962 0.7658078670501709</Border>
+        <Fill>0.9948 0.8577 0.9998</Fill>
+      </Appearance>
+      <String>local-projects/</String>
+      <ConnectedNoteIDs>0, 2</ConnectedNoteIDs>
+    </Note>
+    <Note ID="2" FontSize="12.0" Position="224.0,238.0" Width="160.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183115959167 0.7627586722373962 0.7658078670501709</Border>
+        <Fill>0.9948 0.8577 0.9998</Fill>
+      </Appearance>
+      <String>hamburgerworkbenchD0D/</String>
+      <ConnectedNoteIDs>1, 12</ConnectedNoteIDs>
+    </Note>
+    <Note ID="4" FontSize="12.0" Position="431.0,206.6" Width="61.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Makefile</String>
+      <ConnectedNoteIDs>7</ConnectedNoteIDs>
+    </Note>
+    <Note ID="5" FontSize="12.0" Position="416.0,177.0" Width="256.8">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9024706482887268 0.8555303812026978 0.628868043422699</Border>
+        <Fill>0.9812 0.9304 0.6851</Fill>
+      </Appearance>
+      <String>goal: hamburger workbench in a browser</String>
+    </Note>
+    <Note ID="6" FontSize="12.0" Position="582.0,278.0" Width="213.8">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>testbench.drawio -&gt; testbench.json</String>
+      <ConnectedNoteIDs>16</ConnectedNoteIDs>
+    </Note>
+    <Note ID="7" FontSize="12.0" Position="529.7,210.2" Width="55.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>main.js</String>
+      <ConnectedNoteIDs>4</ConnectedNoteIDs>
+    </Note>
+    <Note ID="8" FontSize="12.0" Position="591.1,314.0" Width="176.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>testbench.json -&gt; testbench.js</String>
+    </Note>
+    <Note ID="9" FontSize="12.0" Position="838.3,321.8" Width="275.1">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>d2jsonmain.js &lt;&lt; program to convert .drawio to .json</String>
+      <ConnectedNoteIDs>16</ConnectedNoteIDs>
+    </Note>
+    <Note ID="10" FontSize="12.0" Position="430.0,265.0" Width="81.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>testbench.js</String>
+    </Note>
+    <Note ID="11" FontSize="12.0" Position="442.0,379.0" Width="227.6">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9024706482887268 0.8555303812026978 0.628868043422699</Border>
+        <Fill>0.9812 0.9304 0.6851</Fill>
+      </Appearance>
+      <String>goal: write script to copy files for book</String>
+    </Note>
+    <Note ID="12" FontSize="12.0" Position="425.8,237.9" Width="114.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>hamburger0d.html</String>
+      <ConnectedNoteIDs>2</ConnectedNoteIDs>
+    </Note>
+    <Note ID="14" FontSize="12.0" Position="632.0,439.0" Width="95.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>script as ASCs</String>
+      <ConnectedNoteIDs>17</ConnectedNoteIDs>
+    </Note>
+    <Note ID="15" FontSize="12.0" Position="681.8,616.2" Width="130.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>foreach as HSM ASC</String>
+    </Note>
+    <Note ID="16" FontSize="12.0" Position="820.4,290.9" Width="59.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>./d2json</String>
+      <ConnectedNoteIDs>6, 9</ConnectedNoteIDs>
+    </Note>
+    <Note ID="17" FontSize="12.0" Position="745.9,441.1" Width="214.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>script.drawio -&gt; script.json -&gt; script.js</String>
+      <ConnectedNoteIDs>14, 20</ConnectedNoteIDs>
+    </Note>
+    <Note ID="18" FontSize="12.0" Position="823.0,620.0" Width="188.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>foreach.mdsm : markdown HSM</String>
+    </Note>
+    <Note ID="19" FontSize="12.0" Position="1042.3,620.3" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>mdhsm.ohm/mdhsm.fmt convert mdhsm to </String>
+    </Note>
+    <Note ID="20" FontSize="12.0" Position="815.8,477.7" Width="101.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>./scripttranspile/</String>
+      <ConnectedNoteIDs>17, 21</ConnectedNoteIDs>
+    </Note>
+    <Note ID="21" FontSize="12.0" Position="929.9,491.1" Width="363.5">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>make preprocess converts ../script.js Command[delete|copy|rename|**foreach**] &gt;&gt; with JS lumps</String>
+      <ConnectedNoteIDs>20, 28</ConnectedNoteIDs>
+    </Note>
+    <Note ID="22" FontSize="12.0" Position="649.0,570.0" Width="157.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>foreach is a state machine</String>
+    </Note>
+    <Note ID="23" FontSize="12.0" Position="656.0,670.0" Width="52.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>../play/</String>
+      <ConnectedNoteIDs>24</ConnectedNoteIDs>
+    </Note>
+    <Note ID="24" FontSize="12.0" Position="705.0,705.0" Width="122.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>netstingvasc.drawio</String>
+      <ConnectedNoteIDs>23, 25</ConnectedNoteIDs>
+    </Note>
+    <Note ID="25" FontSize="12.0" Position="778.0,739.0" Width="185.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>contains drawing of foreach SM</String>
+      <ConnectedNoteIDs>24, 26</ConnectedNoteIDs>
+    </Note>
+    <Note ID="26" FontSize="12.0" Position="870.0,771.0" Width="216.5">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>manually transpile drawing to .mdsm</String>
+      <ConnectedNoteIDs>25, 27</ConnectedNoteIDs>
+    </Note>
+    <Note ID="27" FontSize="12.0" Position="938.5,806.1" Width="363.5">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>./scripttranspile/make foreach &gt;&gt; converts .mdsm -&gt; .hsm -&gt; JS</String>
+      <ConnectedNoteIDs>26</ConnectedNoteIDs>
+      <Formatting>
+        <FormatRange Italic="Yes">60,2</FormatRange>
+      </Formatting>
+    </Note>
+    <Note ID="28" FontSize="12.0" Position="823.0,550.0" Width="300.3">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>preprocessor &gt;&gt; st.fmt needs foreach.mdsm inserted</String>
+      <ConnectedNoteIDs>21, 29</ConnectedNoteIDs>
+    </Note>
+    <Note ID="29" FontSize="12.0" Position="1167.0,549.0" Width="188.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>need .mdsm breakout brackets?</String>
+      <ConnectedNoteIDs>28, 30</ConnectedNoteIDs>
+    </Note>
+    <Note ID="30" FontSize="12.0" Position="1161.0,578.0" Width="365.5">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>or, just add mdsm as a Command to the preprocessor st.ohm?</String>
+      <ConnectedNoteIDs>29</ConnectedNoteIDs>
+    </Note>
+  </Notes>
+  <BackgroundShapes/>
+  <AutoFit>0-2, 4, 7-8, 10, 12, 14-18, 20, 22-25, 29</AutoFit>
+  <NoteStyles>
+    <Style Name="Bubble (Blue)" ID="95DAEB09-FAAF-4FF5-A4C2-FC15BC7F7EE8" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.668962 0.810287 0.895092</BorderColor>
+      <FillColor>0.743291 0.900319 0.994547</FillColor>
+    </Style>
+    <Style Name="Bubble (Green)" ID="97986BBA-72B1-441A-B31C-A777CA880486" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.669404 0.885265 0.567007</BorderColor>
+      <FillColor>0.743783 0.983628 0.630008</FillColor>
+    </Style>
+    <Style Name="Bubble (Pink)" ID="9DC9855F-C97D-4C3F-B92F-DD508E63849D" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+      <FillColor>0.989115 0.814114 0.999483</FillColor>
+    </Style>
+    <Style Name="Bubble (Red)" ID="F0696C49-3094-4C28-A556-3201B0D6FB1C" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+      <FillColor>0.993942 0.786413 0.795449</FillColor>
+    </Style>
+    <Style Name="Bubble (Yellow)" ID="D313B65E-5DBF-4B80-8221-990B33789A20" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.877748 0.828289 0.562126</BorderColor>
+      <FillColor>0.975275 0.920321 0.624585</FillColor>
+    </Style>
+    <Style Name="Red Text" ID="FA4A6A0E-5B57-4F30-872B-C80E19C16518" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+      <TextColor>0.985954 0.0 0.02694</TextColor>
+    </Style>
+    <Style Name="Title Text" ID="2C781326-09D7-4DB8-988D-3FCC89BB3FFA" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+      <FontSize>28.0</FontSize>
+      <IsBold>Yes</IsBold>
+    </Style>
+  </NoteStyles>
+  <UISettings>
+    <BackgroundColor>0.999763 0.988395 0.949915</BackgroundColor>
+    <DefaultFont>Helvetica</DefaultFont>
+    <NoteXPadding>8.0</NoteXPadding>
+  </UISettings>
+  <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
+</ScappleDocument>

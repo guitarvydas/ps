@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.2" ID="4C135814-0904-41BC-8D85-D5BFA874E93F">
+  <Notes>
+    <Note ID="0" FontSize="12.0" Position="370.0,84.0" Width="87.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764848 0.8974809647 0.6336729527</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>programming</String>
+      <ConnectedNoteIDs>1-2</ConnectedNoteIDs>
+    </Note>
+    <Note ID="1" FontSize="12.0" Position="289.4,153.8" Width="41.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764848 0.8974809647 0.6336729527</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>sync</String>
+      <ConnectedNoteIDs>0, 4, 6, 10-11</ConnectedNoteIDs>
+    </Note>
+    <Note ID="2" FontSize="12.0" Position="525.8,154.5" Width="48.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764848 0.8974809647 0.6336729527</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>async</String>
+      <ConnectedNoteIDs>0, 7, 24, 34</ConnectedNoteIDs>
+    </Note>
+    <Note ID="3" FontSize="12.0" Position="532.3,358.4" Width="59.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>pub/sub</String>
+      <ConnectedNoteIDs>8</ConnectedNoteIDs>
+    </Note>
+    <Note ID="4" FontSize="12.0" Position="264.8,235.1" Width="74.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>compilable</String>
+      <ConnectedNoteIDs>1, 5</ConnectedNoteIDs>
+    </Note>
+    <Note ID="5" FontSize="12.0" Position="292.0,266.0" Width="45.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>static</String>
+      <ConnectedNoteIDs>4, 27-29</ConnectedNoteIDs>
+    </Note>
+    <Note ID="6" FontSize="12.0" Position="380.6,271.1" Width="61.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>dynamic</String>
+      <ConnectedNoteIDs>1, 19-21, 30-31</ConnectedNoteIDs>
+    </Note>
+    <Note ID="7" FontSize="12.0" Position="556.0,274.0" Width="110.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>message passing</String>
+      <ConnectedNoteIDs>2, 8-9</ConnectedNoteIDs>
+    </Note>
+    <Note ID="8" FontSize="12.0" Position="542.0,318.0" Width="83.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>unstructured</String>
+      <ConnectedNoteIDs>3, 7</ConnectedNoteIDs>
+    </Note>
+    <Note ID="9" FontSize="12.0" Position="658.3,318.4" Width="70.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>structured</String>
+      <ConnectedNoteIDs>7</ConnectedNoteIDs>
+    </Note>
+    <Note ID="10" FontSize="12.0" Position="81.4,232.1" Width="83.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>unstructured</String>
+      <ConnectedNoteIDs>1, 14</ConnectedNoteIDs>
+    </Note>
+    <Note ID="11" FontSize="12.0" Position="178.0,233.7" Width="70.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>structured</String>
+      <ConnectedNoteIDs>1</ConnectedNoteIDs>
+    </Note>
+    <Note ID="12" FontSize="12.0" Position="387.7,487.6" Width="163.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Smalltalk message sending</String>
+      <ConnectedNoteIDs>13, 31</ConnectedNoteIDs>
+    </Note>
+    <Note ID="13" FontSize="12.0" Position="416.9,526.5" Width="194.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>CALL/RETURN (sync, not async)</String>
+      <ConnectedNoteIDs>12</ConnectedNoteIDs>
+    </Note>
+    <Note ID="14" FontSize="12.0" Position="68.0,272.0" Width="72.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>assembler</String>
+      <ConnectedNoteIDs>10, 15</ConnectedNoteIDs>
+    </Note>
+    <Note ID="15" FontSize="12.0" Position="55.0,326.0" Width="52.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>GOTO</String>
+      <ConnectedNoteIDs>14, 18</ConnectedNoteIDs>
+    </Note>
+    <Note ID="18" FontSize="12.0" Position="59.5,385.1" Width="41.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>CPS</String>
+      <ConnectedNoteIDs>15</ConnectedNoteIDs>
+    </Note>
+    <Note ID="19" FontSize="12.0" Position="330.5,333.3" Width="54.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Python</String>
+      <ConnectedNoteIDs>6</ConnectedNoteIDs>
+    </Note>
+    <Note ID="20" FontSize="12.0" Position="330.5,368.3" Width="39.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Lisp</String>
+      <ConnectedNoteIDs>6</ConnectedNoteIDs>
+    </Note>
+    <Note ID="21" FontSize="12.0" Position="335.1,401.7" Width="73.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>JavaScript</String>
+      <ConnectedNoteIDs>6</ConnectedNoteIDs>
+    </Note>
+    <Note ID="24" FontSize="12.0" Position="690.0,249.0" Width="73.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>concurrent</String>
+      <ConnectedNoteIDs>2, 25-26</ConnectedNoteIDs>
+    </Note>
+    <Note ID="25" FontSize="12.0" Position="784.0,263.5" Width="80.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>simultaneity</String>
+      <ConnectedNoteIDs>24</ConnectedNoteIDs>
+    </Note>
+    <Note ID="26" FontSize="12.0" Position="784.0,306.1" Width="74.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>parallelism</String>
+      <ConnectedNoteIDs>24</ConnectedNoteIDs>
+    </Note>
+    <Note ID="27" FontSize="12.0" Position="178.0,317.0" Width="39.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>C++</String>
+      <ConnectedNoteIDs>5</ConnectedNoteIDs>
+    </Note>
+    <Note ID="28" FontSize="12.0" Position="179.3,349.1" Width="56.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Haskell</String>
+      <ConnectedNoteIDs>5</ConnectedNoteIDs>
+    </Note>
+    <Note ID="29" FontSize="12.0" Position="179.9,388.7" Width="36.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>etc.</String>
+      <ConnectedNoteIDs>5</ConnectedNoteIDs>
+    </Note>
+    <Note ID="30" FontSize="12.0" Position="443.0,305.0" Width="48.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>REPL</String>
+      <ConnectedNoteIDs>6</ConnectedNoteIDs>
+    </Note>
+    <Note ID="31" FontSize="12.0" Position="355.8,432.3" Width="65.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Smalltalk</String>
+      <ConnectedNoteIDs>6, 12</ConnectedNoteIDs>
+    </Note>
+    <Note ID="34" FontSize="12.0" Position="688.5,183.1" Width="32.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>0D</String>
+      <ConnectedNoteIDs>2, 35</ConnectedNoteIDs>
+    </Note>
+    <Note ID="35" FontSize="12.0" Position="783.8,216.9" Width="118.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>zero dependencies</String>
+      <ConnectedNoteIDs>34</ConnectedNoteIDs>
+    </Note>
+  </Notes>
+  <BackgroundShapes/>
+  <AutoFit>0-15, 18-21, 24-31, 34-35</AutoFit>
+  <NoteStyles>
+    <Style Name="Bubble (Blue)" ID="625ABE8C-2153-4BA6-927D-3C28598C2905" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.668962 0.810287 0.895092</BorderColor>
+      <FillColor>0.743291 0.900319 0.994547</FillColor>
+    </Style>
+    <Style Name="Bubble (Green)" ID="82977687-8476-4E96-8C42-3E2AC004185B" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.669404 0.885265 0.567007</BorderColor>
+      <FillColor>0.743783 0.983628 0.630008</FillColor>
+    </Style>
+    <Style Name="Bubble (Pink)" ID="9916799B-2E6D-4103-A27A-44E8A732EBF1" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+      <FillColor>0.989115 0.814114 0.999483</FillColor>
+    </Style>
+    <Style Name="Bubble (Red)" ID="A9C7BE1B-56BB-413A-8F4E-D5DA931EB76E" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+      <FillColor>0.993942 0.786413 0.795449</FillColor>
+    </Style>
+    <Style Name="Bubble (Yellow)" ID="48879BF9-CE32-4941-8462-21BDF4A12BF7" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.877748 0.828289 0.562126</BorderColor>
+      <FillColor>0.975275 0.920321 0.624585</FillColor>
+    </Style>
+    <Style Name="Red Text" ID="EF61890C-4566-4C61-AF76-5B2616048F46" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+      <TextColor>0.985954 0.0 0.02694</TextColor>
+    </Style>
+    <Style Name="Title Text" ID="8376A7D6-2116-4909-81A3-5F151413309F" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+      <FontSize>28.0</FontSize>
+      <IsBold>Yes</IsBold>
+    </Style>
+  </NoteStyles>
+  <UISettings>
+    <BackgroundColor>0.999763 0.988395 0.949915</BackgroundColor>
+    <DefaultFont>Helvetica</DefaultFont>
+    <NoteXPadding>8.0</NoteXPadding>
+  </UISettings>
+  <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
+</ScappleDocument>

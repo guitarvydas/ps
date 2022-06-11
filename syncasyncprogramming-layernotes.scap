@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.2" ID="B41C8627-2627-47BC-9987-16EF6714FBFD">
+  <Notes>
+    <Note ID="0" FontSize="12.0" Position="315.0,5.5" Width="87.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>programming</String>
+      <ConnectedNoteIDs>1-2</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="1" FontSize="12.0" Position="234.4,75.3" Width="41.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>sync</String>
+      <ConnectedNoteIDs>0, 34, 38</ConnectedNoteIDs>
+    </Note>
+    <Note ID="2" FontSize="12.0" Position="470.8,76.0" Width="48.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>async</String>
+      <ConnectedNoteIDs>0, 32-33, 36, 46, 51</ConnectedNoteIDs>
+    </Note>
+    <Note ID="32" FontSize="12.0" Position="614.0,337.5" Width="290.3">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.0 0.0 0.0</TextColor>
+        <Border Weight="1">0.006677136507 0.007844216646 0.008510314312</Border>
+        <Fill>0.786 0.9204 0.9961</Fill>
+      </Appearance>
+      <String>see: https://guitarvydas.github.io/2020/12/09/CALL-RETURN-Spaghetti.html</String>
+      <ConnectedNoteIDs>2</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="33" FontSize="12.0" Position="614.0,379.5" Width="290.3">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.0 0.0 0.0</TextColor>
+        <Border Weight="1">0.006677136507 0.007844216646 0.008510314312</Border>
+        <Fill>0.786 0.9204 0.9961</Fill>
+      </Appearance>
+      <String>see: https://publish.obsidian.md/programmingsimplicity/2022-05-30-Fire+and+Forget</String>
+      <ConnectedNoteIDs>2</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="34" FontSize="12.0" Position="30.0,403.5" Width="185.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.006677136507 0.007844216646 0.008510314312</Border>
+        <Fill>0.786 0.9204 0.9961</Fill>
+      </Appearance>
+      <String>de-synchronization, asynchrony</String>
+      <ConnectedNoteIDs>1, 35</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="35" FontSize="12.0" Position="40.2,440.9" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.006677136507 0.007844216646 0.008510314312</Border>
+        <Fill>0.786 0.9204 0.9961</Fill>
+      </Appearance>
+      <String>Operating System Processes, preemption</String>
+      <ConnectedNoteIDs>34</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="36" FontSize="12.0" Position="902.1,437.6" Width="101.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.006677136507 0.007844216646 0.008510314312</Border>
+        <Fill>0.786 0.9204 0.9961</Fill>
+      </Appearance>
+      <String>synchronization</String>
+      <ConnectedNoteIDs>2, 37</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="37" FontSize="12.0" Position="883.4,486.0" Width="127.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.006677136507 0.007844216646 0.008510314312</Border>
+        <Fill>0.786 0.9204 0.9961</Fill>
+      </Appearance>
+      <String>handshake protocols</String>
+      <ConnectedNoteIDs>36</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="38" FontSize="12.0" Position="215.0,237.0" Width="130.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.006677136507 0.007844216646 0.008510314312</Border>
+        <Fill>0.786 0.9204 0.9961</Fill>
+      </Appearance>
+      <String>synchronous libraries</String>
+      <ConnectedNoteIDs>1, 39</ConnectedNoteIDs>
+    </Note>
+    <Note ID="39" FontSize="12.0" Position="262.0,282.0" Width="149.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.006677136507 0.007844216646 0.008510314312</Border>
+        <Fill>0.786 0.9204 0.9961</Fill>
+      </Appearance>
+      <String>smaller memory footprint</String>
+      <ConnectedNoteIDs>38, 40</ConnectedNoteIDs>
+    </Note>
+    <Note ID="40" FontSize="12.0" Position="335.0,318.0" Width="154.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.006677136507 0.007844216646 0.008510314312</Border>
+        <Fill>0.786 0.9204 0.9961</Fill>
+      </Appearance>
+      <String>at expense of CPU cycles</String>
+      <ConnectedNoteIDs>39, 41-42</ConnectedNoteIDs>
+    </Note>
+    <Note ID="41" FontSize="12.0" Position="373.9,424.6" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.006677136507 0.007844216646 0.008510314312</Border>
+        <Fill>0.786 0.9204 0.9961</Fill>
+      </Appearance>
+      <String>“inline” declarations attempt to expand code after compression by programmer</String>
+      <ConnectedNoteIDs>40, 43-44</ConnectedNoteIDs>
+    </Note>
+    <Note ID="42" FontSize="12.0" Position="227.2,360.5" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.006677136507 0.007844216646 0.008510314312</Border>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>use CALL/RETURN runtime functions to group code</String>
+      <ConnectedNoteIDs>40</ConnectedNoteIDs>
+    </Note>
+    <Note ID="43" FontSize="12.0" Position="391.2,503.5" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>inline functions are different from regular functions - inline functions are like macros (stamps), whereas regular functions are grouped by CALL/RETURN</String>
+      <ConnectedNoteIDs>41</ConnectedNoteIDs>
+    </Note>
+    <Note ID="44" FontSize="12.0" Position="627.3,531.5" Width="198.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>“inline” is like an “off-page” marker</String>
+      <ConnectedNoteIDs>41</ConnectedNoteIDs>
+    </Note>
+    <Note ID="45" FontSize="12.0" Position="873.9,194.5" Width="40.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>DaS</String>
+      <ConnectedNoteIDs>49-50</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="46" FontSize="12.0" Position="644.1,195.6" Width="73.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>concurrent</String>
+      <ConnectedNoteIDs>2, 47-48, 50</ConnectedNoteIDs>
+    </Note>
+    <Note ID="47" FontSize="12.0" Position="739.1,210.1" Width="80.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>simultaneity</String>
+      <ConnectedNoteIDs>46</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="48" FontSize="12.0" Position="735.6,252.7" Width="74.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>parallelism</String>
+      <ConnectedNoteIDs>46</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="49" FontSize="12.0" Position="850.8,226.4" Width="124.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Diagrams as Syntax</String>
+      <ConnectedNoteIDs>45</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="50" FontSize="12.0" Position="709.4,154.6" Width="188.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>sensible diagrams become easy</String>
+      <ConnectedNoteIDs>45-46, 51</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="51" FontSize="12.0" Position="632.1,128.6" Width="32.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>0D</String>
+      <ConnectedNoteIDs>2, 50</ConnectedNoteIDs>
+    </Note>
+  </Notes>
+  <BackgroundShapes/>
+  <Stacks>
+    <Stack>32-33</Stack>
+  </Stacks>
+  <AutoFit>0-2, 34, 37-40, 44-51</AutoFit>
+  <NoteStyles>
+    <Style Name="Bubble (Blue)" ID="CCABA9D0-58EF-4C94-90A7-9E37C837878A" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.668962 0.810287 0.895092</BorderColor>
+      <FillColor>0.743291 0.900319 0.994547</FillColor>
+    </Style>
+    <Style Name="Bubble (Green)" ID="66A0DA4C-70F1-4EF0-82DA-73FDE28FE4C8" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.669404 0.885265 0.567007</BorderColor>
+      <FillColor>0.743783 0.983628 0.630008</FillColor>
+    </Style>
+    <Style Name="Bubble (Pink)" ID="6C9F1DE7-4E8F-46C5-97F7-25593831DF8C" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+      <FillColor>0.989115 0.814114 0.999483</FillColor>
+    </Style>
+    <Style Name="Bubble (Red)" ID="0FD32766-F2FD-49FB-9BD2-EC576A80B892" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+      <FillColor>0.993942 0.786413 0.795449</FillColor>
+    </Style>
+    <Style Name="Bubble (Yellow)" ID="09983D18-C63E-4540-A9BE-F68D3149D40B" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.877748 0.828289 0.562126</BorderColor>
+      <FillColor>0.975275 0.920321 0.624585</FillColor>
+    </Style>
+    <Style Name="Red Text" ID="C6793C58-EEEC-4FD5-8FDA-302C6CEBE506" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+      <TextColor>0.985954 0.0 0.02694</TextColor>
+    </Style>
+    <Style Name="Title Text" ID="CA508D95-1555-4EFB-8F0D-284F533AFD26" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+      <FontSize>28.0</FontSize>
+      <IsBold>Yes</IsBold>
+    </Style>
+  </NoteStyles>
+  <UISettings>
+    <BackgroundColor>0.999763 0.988395 0.949915</BackgroundColor>
+    <DefaultFont>Helvetica</DefaultFont>
+    <NoteXPadding>8.0</NoteXPadding>
+  </UISettings>
+  <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
+</ScappleDocument>

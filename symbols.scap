@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.2" ID="1EBF0BBE-6DD4-44CA-9B65-B5B8BB7481ED">
+  <Notes>
+    <Note ID="0" FontSize="12.0" Position="220.6,193.9" Width="44.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>“abc”</String>
+      <ConnectedNoteIDs>3</ConnectedNoteIDs>
+    </Note>
+    <Note ID="2" FontSize="12.0" Position="227.6,260.9" Width="39.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>‘abc</String>
+      <ConnectedNoteIDs>4</ConnectedNoteIDs>
+    </Note>
+    <Note ID="3" FontSize="12.0" Position="322.6,182.9" Width="46.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9024706482887268 0.8555303812026978 0.628868043422699</Border>
+        <Fill>0.9812 0.9304 0.6851</Fill>
+      </Appearance>
+      <String>string</String>
+      <ConnectedNoteIDs>0</ConnectedNoteIDs>
+    </Note>
+    <Note ID="4" FontSize="12.0" Position="323.6,247.9" Width="55.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9024706482887268 0.8555303812026978 0.628868043422699</Border>
+        <Fill>0.9812 0.9304 0.6851</Fill>
+      </Appearance>
+      <String>symbol</String>
+      <ConnectedNoteIDs>2, 8-9</ConnectedNoteIDs>
+    </Note>
+    <Note ID="5" FontSize="12.0" Position="609.3,250.8" Width="159.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9024706482887268 0.8555303812026978 0.628868043422699</Border>
+        <Fill>0.9812 0.9304 0.6851</Fill>
+      </Appearance>
+      <String>hashed string “abc” -&gt; ‘abc</String>
+      <ConnectedNoteIDs>8</ConnectedNoteIDs>
+    </Note>
+    <Note ID="6" FontSize="12.0" Position="606.7,286.6" Width="123.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9024706482887268 0.8555303812026978 0.628868043422699</Border>
+        <Fill>0.9812 0.9304 0.6851</Fill>
+      </Appearance>
+      <String>single numeric code</String>
+      <ConnectedNoteIDs>8</ConnectedNoteIDs>
+    </Note>
+    <Note ID="7" FontSize="12.0" Position="603.0,323.0" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9024706482887268 0.8555303812026978 0.628868043422699</Border>
+        <Fill>0.9812 0.9304 0.6851</Fill>
+      </Appearance>
+      <String>cheaper to compare 1 int vs. all chars of a string</String>
+      <ConnectedNoteIDs>8</ConnectedNoteIDs>
+    </Note>
+    <Note ID="8" FontSize="12.0" Position="462.0,285.0" Width="98.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>implementation</String>
+      <ConnectedNoteIDs>4-7</ConnectedNoteIDs>
+    </Note>
+    <Note ID="9" FontSize="12.0" Position="394.1,336.7" Width="71.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>semantics</String>
+      <ConnectedNoteIDs>4, 10</ConnectedNoteIDs>
+    </Note>
+    <Note ID="10" FontSize="12.0" Position="460.1,395.9" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>don’t need to specify implementation (string or int or ???)</String>
+      <ConnectedNoteIDs>9</ConnectedNoteIDs>
+    </Note>
+  </Notes>
+  <BackgroundShapes/>
+  <AutoFit>0, 2-6, 8-9</AutoFit>
+  <NoteStyles>
+    <Style Name="Bubble (Blue)" ID="FCF8B9E0-433A-4644-9359-44E21E66CA1A" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.668962 0.810287 0.895092</BorderColor>
+      <FillColor>0.743291 0.900319 0.994547</FillColor>
+    </Style>
+    <Style Name="Bubble (Green)" ID="1852F5C1-5530-4A4E-97D1-BE861F7DDE44" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.669404 0.885265 0.567007</BorderColor>
+      <FillColor>0.743783 0.983628 0.630008</FillColor>
+    </Style>
+    <Style Name="Bubble (Pink)" ID="BE3C6FCB-F738-4A1E-A97A-D7567E99D619" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+      <FillColor>0.989115 0.814114 0.999483</FillColor>
+    </Style>
+    <Style Name="Bubble (Red)" ID="C4444CD8-021F-4D0F-B745-A88F2F8A3867" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+      <FillColor>0.993942 0.786413 0.795449</FillColor>
+    </Style>
+    <Style Name="Bubble (Yellow)" ID="5730CE7E-7D00-498C-B2B5-31075352B155" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.877748 0.828289 0.562126</BorderColor>
+      <FillColor>0.975275 0.920321 0.624585</FillColor>
+    </Style>
+    <Style Name="Red Text" ID="03C0F593-6ED5-48D2-8D9A-523D7B3F105B" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+      <TextColor>0.985954 0.0 0.02694</TextColor>
+    </Style>
+    <Style Name="Title Text" ID="EABDA2BE-B254-44AF-B879-2F91BE63FAD5" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+      <FontSize>28.0</FontSize>
+      <IsBold>Yes</IsBold>
+    </Style>
+  </NoteStyles>
+  <UISettings>
+    <BackgroundColor>0.999763 0.988395 0.949915</BackgroundColor>
+    <DefaultFont>Helvetica</DefaultFont>
+    <NoteXPadding>8.0</NoteXPadding>
+  </UISettings>
+  <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
+</ScappleDocument>

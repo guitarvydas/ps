@@ -1,0 +1,50 @@
+[[p-preface]]
+[[preface]]
+[[p-hamburgerworkbench]]
+[[../2022-06-07-Introduction to Parsing - Hamburger Workbench]]
+[[../Parsing Generalized]]
+[[ch-Simplified Parsing for an Ad-Hoc Application]]
+[[hw-app]]
+[[ch-iwantahamburger]]
+[[I Want A Hamburger]]
+[[ch-hamburgerworkbenchsimplestversion]]
+[[Hamburger Most Simple]]
+[[hw-app-embellished]]
+[[ch-hamburgerworkbenchembellishedversion]]
+[[Hamburger Embellished But Still Simple]]
+[[p-appendices-hw]]
+[[ch-hamburgerworkbenchgithub]]
+[[hw-app-github]]
+[[Hamburger Github]]
+[[ch-ohmjs]]
+[[ohmjs]]
+[[ch-whylearnohmjs]]
+[[Why You Need To Learn Ohm-JS]]
+[[ch-whatssogoodaboutohmjs]]
+[[whyohmjs]]
+[[ch-prep-hw]]
+[[Prep]]
+[[ch-sweng]]
+[[Software Engineering is More Than Production Engineering]]
+[[ch-syntaxdirectedprogramming]]
+[[syntax-directed programs]]
+[[../2022-06-07-Language Theory vs PEG Parsing]]
+[[ch-ptpascal]]
+[[ptpascal]]
+
+[[Section 1 From Ad-Hoc Programming to Drawings in 3 Easy Steps]]
+
+[[Section 2 Diagrams as Syntax]]
+
+[[Section 3 - Ohm-JS, PEG, REGEX, Pattern-Matching Made Easy]]
+
+[[Section 4 - The Future of Programming]]
+
+[[Section 5 - Exercises and Honing Your Skills]]
+
+todo:
+We will discuss the question of what makes a good drawing for representing programs.  What ideas can be used to construct DaS syntaxes? [[What Makes a Good DaS Syntax?]]
+
+We will discuss Ohm-JS, why it is a better PEG and why PEG is better for parsing than previous technologies. [[Why PEG Why Ohm]]
+
+We will discuss the use of current programming languages as *assembler* for the next generation of progamming languages, esp. DaS. [[The Next Generation of Programming Languages]]

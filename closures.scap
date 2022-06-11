@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.2" ID="5BD55E86-2C7D-42AB-81F2-AFBB4392031A">
+  <Notes>
+    <Note ID="0" FontSize="12.0" Position="288.7,65.8" Width="77.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>lisp lambda</String>
+      <ConnectedNoteIDs>1</ConnectedNoteIDs>
+    </Note>
+    <Note ID="1" FontSize="12.0" Position="302.0,155.0" Width="103.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>closed variables</String>
+      <ConnectedNoteIDs>0, 2-3, 10</ConnectedNoteIDs>
+    </Note>
+    <Note ID="2" FontSize="12.0" Position="253.0,213.0" Width="109.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Let Over Lambda</String>
+      <ConnectedNoteIDs>1, 6, 9</ConnectedNoteIDs>
+    </Note>
+    <Note ID="3" FontSize="12.0" Position="475.3,177.9" Width="149.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>optimized for compilation</String>
+      <ConnectedNoteIDs>1, 4</ConnectedNoteIDs>
+    </Note>
+    <Note ID="4" FontSize="12.0" Position="523.9,234.8" Width="61.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>closures</String>
+      <ConnectedNoteIDs>3, 5</ConnectedNoteIDs>
+    </Note>
+    <Note ID="5" FontSize="12.0" Position="503.0,282.0" Width="237.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>UX changes (language restrictions)</String>
+      <ConnectedNoteIDs>4, 7</ConnectedNoteIDs>
+    </Note>
+    <Note ID="6" FontSize="12.0" Position="133.0,262.0" Width="154.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.0 0.0 0.0</TextColor>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>https://letoverlambda.com</String>
+      <ConnectedNoteIDs>2</ConnectedNoteIDs>
+    </Note>
+    <Note ID="7" FontSize="12.0" Position="518.3,345.3" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>many modern languages, e.g. Python, Haskell, …</String>
+      <ConnectedNoteIDs>5, 10</ConnectedNoteIDs>
+    </Note>
+    <Note ID="8" FontSize="12.0" Position="301.8,344.7" Width="71.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Javascript</String>
+      <ConnectedNoteIDs>10</ConnectedNoteIDs>
+    </Note>
+    <Note ID="9" FontSize="12.0" Position="41.2,294.3" Width="238.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.0 0.0 0.0</TextColor>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>https://www.amazon.ca/Let-Over-Lambda-Doug-Hoyte/dp/1435712757</String>
+      <ConnectedNoteIDs>2</ConnectedNoteIDs>
+    </Note>
+    <Note ID="10" FontSize="12.0" Position="348.6,285.3" Width="130.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>anonymous functions</String>
+      <ConnectedNoteIDs>1, 7-8</ConnectedNoteIDs>
+    </Note>
+  </Notes>
+  <BackgroundShapes/>
+  <AutoFit>0-4, 6, 8, 10</AutoFit>
+  <NoteStyles>
+    <Style Name="Bubble (Blue)" ID="4259C34A-9EA7-4024-BD6B-AA9CDFB0F995" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.668962 0.810287 0.895092</BorderColor>
+      <FillColor>0.743291 0.900319 0.994547</FillColor>
+    </Style>
+    <Style Name="Bubble (Green)" ID="FD73CB54-1C63-40D5-AB3D-4B855068AE9F" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.669404 0.885265 0.567007</BorderColor>
+      <FillColor>0.743783 0.983628 0.630008</FillColor>
+    </Style>
+    <Style Name="Bubble (Pink)" ID="12376889-7D11-4673-B7EF-7427DFD353ED" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+      <FillColor>0.989115 0.814114 0.999483</FillColor>
+    </Style>
+    <Style Name="Bubble (Red)" ID="C1A52428-99CF-442C-A542-B8C5475EC48A" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+      <FillColor>0.993942 0.786413 0.795449</FillColor>
+    </Style>
+    <Style Name="Bubble (Yellow)" ID="F8BBB2BC-5BBC-4EA9-A6F9-0712C1311CD5" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.877748 0.828289 0.562126</BorderColor>
+      <FillColor>0.975275 0.920321 0.624585</FillColor>
+    </Style>
+    <Style Name="Red Text" ID="DCDD8B8C-BDA3-4308-9495-75B56AFC1F3B" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+      <TextColor>0.985954 0.0 0.02694</TextColor>
+    </Style>
+    <Style Name="Title Text" ID="E41CA116-B837-4130-A7F9-9F8F81C0528D" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+      <FontSize>28.0</FontSize>
+      <IsBold>Yes</IsBold>
+    </Style>
+  </NoteStyles>
+  <UISettings>
+    <BackgroundColor>0.999763 0.988395 0.949915</BackgroundColor>
+    <DefaultFont>Helvetica</DefaultFont>
+    <NoteXPadding>8.0</NoteXPadding>
+  </UISettings>
+  <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
+</ScappleDocument>

@@ -7,4 +7,4 @@ Looping, hence, recursion, makes no sense in distributed programming, where the 
 You cannot, efficiently, send a complete *stack* back and forth across a thin wire.  Recursion is usually implemented using a hardware stack (i.e. CALL / RETURN instructions).  It doesn't make sense to use a *stack* as a primitive in defining notations for distributed programming.
 
 [[Synchrony Leads to Epicycles]]
-[[@The Stack]]
+[[yy-@The Stack]]

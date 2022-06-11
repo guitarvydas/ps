@@ -1,0 +1,9 @@
+- don't use a PL
+- use whiteboard
+- use DaS techniques to specify
+- use FDD principles 
+	- assume that your main activity is figuring out what needs to be done
+	- assume iterations
+	- assume that you will change your mind
+	- create big red button that rebuilds the project
+	- write code that writes code
