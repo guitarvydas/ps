@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Pattern Matching.md",
+            "file": "2022-06-12-EXPRs and FEXPRs.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pattern Matching.md",
+                "file": "2022-06-12-EXPRs and FEXPRs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pattern Matching.md",
+                "file": "2022-06-12-EXPRs and FEXPRs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pattern Matching.md"
+                "file": "2022-06-12-EXPRs and FEXPRs.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "6876271b070b94bf",
   "lastOpenFiles": [
+    "2022-06-12-EXPRs and FEXPRs.md",
+    "Target Language Syntax.md",
+    "Recursive Macro Expansion.md",
+    "2022-06-12-End User Programming.md",
+    "2022-06-12-What Programming Has Become.md",
+    "2022-06-12-How JavaScript is Better Than Common Lisp.md",
     "Pattern Matching.md",
     "pm Hamburger workbench.md",
     "pm Small steps.md",
-    "pm Other Features of Ohm-JS.md",
-    "pm introduction.md",
-    "pm Getting started.md",
-    "pm Ohm-JS Introduction.md",
-    "2022-05-30-Symbols.md",
-    "Golf Swing vs Grip.md",
-    "pm/gettingstarted/Failed.png"
+    "pm Other Features of Ohm-JS.md"
   ]
 }

@@ -1,0 +1,2 @@
+
+What if one of the thenpart/elsepart branches contained another if-then-else?  The Lisp compiler works recursively, looking for macros within macros. One of the beauties of Lisp (non-)syntax is that doing recursive macro-expansions is easy.  Everything *looks like* a function, so the compiler only needs to check whether the thing being compiled is a function or a macro.  If it sees a macro, the compiler calls the macro-expander.  The macro-expander returns a blob of code that contains functions or macros.  The process repeats, until there are no more macros left.

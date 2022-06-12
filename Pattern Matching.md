@@ -12,6 +12,7 @@ tags:
 [[pm math]]
 [[pm Idioms]]
 [[pm Prep]]
+[[pm Macros]]
 [[pm Parsing C]]
 [[pm Transpiling Scheme to JavaScript]]
 [[pm Other Features of Ohm-JS]]
