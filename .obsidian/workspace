@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-06-12-EXPRs and FEXPRs.md",
+            "file": "2022-06-12-End User Programming.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-06-12-EXPRs and FEXPRs.md",
+                "file": "2022-06-12-End User Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2022-06-12-EXPRs and FEXPRs.md",
+                "file": "2022-06-12-End User Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-06-12-EXPRs and FEXPRs.md"
+                "file": "2022-06-12-End User Programming.md"
               }
             }
           }
@@ -130,10 +130,10 @@
   },
   "active": "6876271b070b94bf",
   "lastOpenFiles": [
-    "2022-06-12-EXPRs and FEXPRs.md",
-    "Target Language Syntax.md",
-    "Recursive Macro Expansion.md",
     "2022-06-12-End User Programming.md",
+    "2022-06-12-EXPRs and FEXPRs.md",
+    "Recursive Macro Expansion.md",
+    "Target Language Syntax.md",
     "2022-06-12-What Programming Has Become.md",
     "2022-06-12-How JavaScript is Better Than Common Lisp.md",
     "Pattern Matching.md",
