@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+textarea {
+}
+</style>
+</head>
+<body>
+
+<h1>Transpiler</h1>
+
+<p>source snippet:</p>
+<textarea id="src" rows="7" cols="90" placeholder="src" style="background-color:oldlace;">
+CONST cache TO ARR ZERO SEP ONE END
+FN fibonacci num DO
+  IF cache OF length GT num DO
+    RETURN cache OF at CALL num END
+  END
+  RETURN fibonacci CALL num SUB ONE END ADD fibonacci CALL sum SUB TWO END
+END
+</textarea>
+
+
+<p>output:</p>
+<textarea id="output" rows="15" cols="90" placeholder="transpiled"  readonly style="background-color:whitesmoke;">
+</textarea>
+<br>
+<br>
+<p id="status" > READY </p>
+<br>
+<button onclick="transpile ()">Test</button>
+<!-- Ohm-JS -->
+<script src="https://unpkg.com/ohm-js@16/dist/ohm.min.js"></script>
+
+
+<!-- Macro preprocessor -->
+<script src="mac.js"></script>
+
+
+<script>
+  function fixup (s) {
+      return s
+          .replace (/~{/g, '${');
+  }
+
+  const tokengrammar = String.raw`
+Keywords {
+main = 
+  | keyword main?    -- withnum
+  | stuff+ main? -- withoutnum
+keyword = 
+  | "RETURN" &separator -- return
+  | "CONST" &separator -- const
+  | "ZERO" &separator -- zero
+  | "CALL" &separator -- call
+  | "ARR" &separator -- arr
+  | "END" &separator -- end
+  | "ONE" &separator -- one
+  | "TWO" &separator -- two
+  | "SEP" &separator -- sep
+  | "SUB" &separator -- sub
+  | "ADD" &separator -- add
+  | "TO" &separator -- to
+  | "GT" &separator -- gt
+  | "DO" &separator -- do
+  | "IF" &separator -- if
+  | "OF" &separator -- of
+  | "FN" &separator -- fn
+
+separator = space | end
+stuff = ~keyword any
+}
+`;
+
+const tokenfmt = String.raw`
+main_withnum [num @more] = [[~{num}~{more}]]
+main_withoutnum [@stuff @more] = [[~{stuff}~{more}]]
+keyword_zero [word lookahead] = [[0]]
+keyword_one [word lookahead] = [[1]]
+keyword_two [word lookahead] = [[2]]
+keyword_sep [word lookahead] = [[,]]
+keyword_gt [word lookahead] = [[>]]
+keyword_const [word lookahead] = [[:const]]
+keyword_to [word lookahead] = [[:to]]
+keyword_arr [word lookahead] = [[:arr]]
+keyword_end [word lookahead] = [[:end]]
+keyword_do [word lookahead] = [[:do]]
+keyword_if [word lookahead] = [[:if]]
+keyword_return [word lookahead] = [[:return]]
+keyword_of [word lookahead] = [[:of]]
+keyword_fn [word lookahead] = [[:fn]]
+keyword_call [word lookahead] = [[:call]]
+keyword_sub [word lookahead] = [[:sub]]
+keyword_add [word lookahead] = [[:add]]
+separator [x] = [[~{x}]]
+stuff [c] = [[~{c}]]
+`;
+
+const nl2jsgrammar = String.raw`  
+NLLang {
+TopLevel = (ConstDeclaration | FunctionDeclaration)+
+ConstDeclaration = ":const" ident ":to" Expression
+FunctionDeclaration = ":fn" ident Formals Block
+
+Formals = ident*
+
+Primary =
+  | digit+ -- number
+  | ":arr" ListOf<Expression, ","> ":end" -- arrayliteral
+  | ident -- variable
+Expression =
+  | Expression ":of" Expression    -- fieldaccess
+  | Expression Operator Expression -- operation
+  | Expression ":call" Expression* ":end" -- functioncall
+  | Primary -- primary
+AtExpression =
+  | "at" ":of" Expression    -- fieldaccess
+  | "at" Operator Expression -- operation
+  | "at" ":call" Expression* ":end" -- functioncall
+Operator =
+  | ":sub" -- subtract
+  | ":add" -- add
+  | ">"    -- gt
+
+Phrase =
+  | IfPhrase
+  | ReturnPhrase
+IfPhrase = ":if" Expression Block
+ReturnPhrase = ":return" Expression
+
+Block = ":do" Phrase+ ":end"
+
+FieldName = ident
+ident = identFirst identRest*
+identFirst = letter | "_"
+identRest = digit | identFirst
+}
+`;				  
+  
+const nl2jsfmt = String.raw`
+TopLevel [@x] = [[~{x}]]
+ConstDeclaration [kconst ident kto expression] = [[\nconst ~{ident} = ~{expression};]]
+FunctionDeclaration [kfn ident Formals Block] = [[\nfunction ~{ident} (~{Formals}) {~{Block}\n}]]
+
+Formals [@ident] = [[~{ident}]]
+
+Primary_number [@digits] = [[~{digits}]]
+Primary_arrayliteral [karr Expressions kend] = [[\[~{Expressions}\] ]]
+
+Expression_fieldaccess [e1 op e2] = [[~{e1}.~{e2}]]
+Expression_operation [e1 op e2] = [[~{e1} ~{op} ~{e2}]]
+Expression_functioncall [e1 kcall @Actuals kend] = [[~{e1} (~{Actuals})]]
+Expression_primary [Primary] = [[~{Primary}]]
+
+Operator_subtract [k] = [[-]]
+Operator_add [k] = [[+]]
+Operator_gt [k] = [[ > ]]
+
+Phrase [x] = [[~{x}]]
+
+IfPhrase [kif Expression Block] = [[\nif (~{Expression}) {~{Block}\n}]]
+ReturnPhrase [kreturn Expression] = [[\nreturn ~{Expression};]]
+
+Block [kdo @Phrase kend] = [[~{Phrase}]]
+
+FieldName [ident] = [[~{ident}]]
+
+ident [identFirst @identRest] = [[~{identFirst}~{identRest}]]
+identFirst [c] = [[~{c}]]
+identRest [c] = [[~{c}]]
+
+NonemptyListOf [x @xs @cs] = [[~{x}~{xs}~{cs}]]
+`;
+
+const peepholegrammar = String.raw`
+NLPeepholer {
+top = peephole+
+peephole =
+  | applySyntactic<AtFunctionCall>
+  | any
+AtFunctionCall = "." "at" "(" Arg* ")"
+Arg = 
+  | "(" Arg* ")"  -- nested
+  | ~"(" ~")" any -- basic
+}
+`;
+
+const peepholefmt = String.raw`
+top [@peephole] = [[~{peephole}]]
+peephole [x] = [[~{x}]]
+AtFunctionCall [kdot kat klp @Args krp] = [[\[~{Args}\] ]]
+Arg_nested [klp @Args krp] = [[~{klp}~{Args}~{krp}]]
+Arg_basic [c] = [[~{c}]]
+`;
+
+
+
+
+  function transpile1 (src, grammar, fmt, message) {
+      var success = false;
+      var transpiled = '';
+      var jssemantics = '';
+      try {
+          [success, transpiled, jssemantics] = expand1 (src, grammar, fmt, fixup);
+      } catch (err) {
+	  success = false;
+      }
+      if (success) {
+	  return [true, transpiled];
+      } else {
+	  document.getElementById('status').innerHTML = "FAILED " + message + "<br>" + Date ();
+	  return [false, transpiled];
+      }
+  }
+
+  function transpile () {
+      let src = document.getElementById('src').value;
+      let [success1, step1] = transpile1 (src, tokengrammar, tokenfmt, "keyword step");
+      if (success1) {
+	  // skip step2, the step2 identity transpiler was used for development of step3
+	  let [success3, step3] = transpile1 (step1, nl2jsgrammar, nl2jsfmt, "transpilation step");
+	  if (success3) {
+	      let [success4, step4] = transpile1 (step3, peepholegrammar, peepholefmt, "peephole step");
+	      if (success4) {
+		  document.getElementById('status').innerHTML = "OK " + Date ();
+		  document.getElementById('output').innerHTML = step4;
+	      }
+	  }
+      }
+  }
+  </script>
+</body>
+</html>
+
+

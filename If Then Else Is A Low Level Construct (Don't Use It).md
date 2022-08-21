@@ -1,8 +1,8 @@
-*If-then-else* was invented to describe return data from functions.
+*Cond* was originally invented to describe return data from functions.
 
 In some situations, the return data should be something, in other situations the return data might be something else.
 
-*If-then-else* was then mis-applied to expressing sequencing.
+*Cond* was then extended to *if-then-else* and was then mis-applied to expressing sequencing.
 
 Low-level usages of *if-then-else* for sequencing usually involve *flags* and various kinds of global variables.
 
@@ -22,5 +22,3 @@ Drakon diagrams are a notation for describing control flow.
 Parsers, Statecharts, Drakon, etc. encapsulate the use of flags.
 
 Sequence diagrams describe control-flow.
-
-[[%Parsing Idioms/Parsing Diagrams]]

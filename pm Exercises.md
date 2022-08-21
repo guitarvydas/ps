@@ -1,0 +1,3 @@
+- [ ] space-preserving SPOhm
+- [ ] prep
+- [ ] sort matches by prefix length ; in PEG, order matters

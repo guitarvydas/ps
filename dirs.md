@@ -1,0 +1,234 @@
+/Users/tarvydas/quicklisp/local-projects
+- **./20201118-diagram-compiler** - *abandoned*?
+- ./**20201216Diagrams as Syntax** - attempt to create SVG manually based on drawio drawing
+- ./**20220604md2brace** - markdown 2 brace example, .html
+- ./**@@-bootstrap** - 
+- ./ABCX
+- ./HTML Snap-Together Components
+- ./JekyllDemo
+- ./OhmSmallSteps
+- ./OhmTokens
+- ./SnapTogether
+- ./abc
+- ./abc-glue
+- ./accounting
+- ./ag-js
+- ./ag-js layers
+- ./ag-js-1
+- ./ag-js-2
+- ./ag-js-3
+- ./ag-js-4
+- ./ag-js-4-old
+- ./agda-work
+- ./appbin
+- ./arithmetic
+- ./arrowgrams
+- ./asc
+- ./asc manually
+- ./asc2
+- ./asca
+- ./ason
+- ./attic
+- ./basic-http
+- ./basicdasl
+- ./basicjekyll
+- ./better-keynote-export
+- ./binary simplified
+- ./blc
+- ./blog-comments
+- ./blogging
+- ./bmfbp
+- ./bootstrap2
+- ./bounding_box
+- ./broken-dasl2
+- ./bt_talk_2022
+- ./build_process copy
+- ./callreturnspaghetti
+- ./cl sugar
+- ./cl-event-passing
+- ./cl-holm-prolog
+- ./cl-peg
+- ./cl-sector-lisp
+- ./cl-sector-lisp2
+- ./cl-sector-lispasc
+- ./clog
+- ./code-reuser
+- ./concurrency
+- ./copygl
+- ./copygrasem
+- ./cp-dasl
+- ./cparse
+- ./d2f
+- ./d2j
+- ./das
+- ./das-2021
+- ./das2json
+- ./dasl copy
+- ./dasl2
+- ./dasscript
+- ./dekyll
+- ./deprecated - hamburgerD0D
+- ./diagram parsing
+- ./diagrams
+- ./diagrams as syntax
+- ./diagrams copy
+- ./drawio
+- ./drawio-tools
+- ./dscript
+- ./dsl-pipline
+- ./duct
+- ./eh
+- ./ehcl
+- ./end-user programming
+- ./esrap
+- ./essay
+- ./example
+- ./experiments
+- ./expr-dsl
+- ./f2j
+- ./factbases-101
+- ./fb
+- ./firstclasscomments
+- ./frits-van-der-wateren-lisp
+- ./fvdwLisp
+- ./gl
+- ./glue
+- ./glue copy
+- ./grasem
+- ./hamburger
+- ./hamburgerworkbench0d
+- ./hamburgerworkbenchD0D
+- ./hamburgerworkbenchD0D copy
+- ./hamburgerworkbenchT0D
+- ./helloworld
+- ./hier
+- ./hsm
+- ./htmp hamburgerworkbenchD0D
+- ./icfp17-main35-s
+- ./indent2brace
+- ./ipa
+- ./j2f
+- ./jam0001
+- ./jam0002
+- ./jekyll
+- ./jekyll-scrivener
+- ./json-toolkit
+- ./json2fb
+- ./keynote-to-jekyll
+- ./kill-math
+- ./langjam
+- ./langjam-suggested
+- ./lc
+- ./loops
+- ./low-level-concurrency
+- ./makept
+- ./makept2
+- ./md2bash
+- ./md2brace
+- ./md2swipl
+- ./mess
+- ./mkglue
+- ./mvmd
+- ./new-d2json
+- ./npmtest
+- ./ocg
+- ./ohm
+- ./ohm-arith
+- ./ohm-editor
+- ./ohm-grammars
+- ./ohm-idioms
+- ./ohm-port
+- ./ohm-snippets
+- ./ohm-start
+- ./old-dasl
+- ./old-dasl2
+- ./old-firstclasscomments
+- ./old-ohm
+- ./old-pfr
+- ./old-stack-dsl
+- ./old-vsh0
+- ./papers
+- ./parseDrawio
+- ./parsing-assembler
+- ./pattern-matching
+- ./pattern-matching copy
+- ./pfr
+- ./play
+- ./pohm
+- ./prep
+- ./producer-consumer
+- ./psl
+- ./pt
+- ./pt+ssl
+- ./ptblc
+- ./pyfact
+- ./python
+- ./racket
+- ./racket-datalog
+- ./racket-macros
+- ./racket-peg
+- ./racket-switch-macro
+- ./rajiv
+- ./realistic compiler
+- ./rectangles
+- ./rectangles copy
+- ./rendezvous
+- ./rew
+- ./robot
+- ./rp-assembler
+- ./rwb
+- ./scanner
+- ./scnwb
+- ./scratch
+- ./scrivener-to-jekyll
+- ./seml
+- ./simple-diagram
+- ./simpleSVG
+- ./sl
+- ./sm
+- ./sm copy
+- ./sm-dsl
+- ./small c
+- ./small-c
+- ./smallc
+- ./spaces-filter
+- ./ssl
+- ./stack-dsl
+- ./state-dsl
+- ./statemachine-transpiler
+- ./statemachine0
+- ./statemachine0-generate
+- ./svg2fb
+- ./svgmd
+- ./svgtranspile
+- ./temp
+- ./temp-daswb
+- ./temp-rectangles
+- ./template
+- ./thinkingProlog
+- ./tinybasic
+- ./tinybasic-m4
+- ./tinybasic-v2
+- ./tinybasicII
+- ./tmp
+- ./tokens
+- ./tools
+- ./transpiling-diagrams
+- ./trivial-with-current-source-form
+- ./twittereval
+- ./twosyntaxes
+- ./ukanren
+- ./untoken
+- ./v8
+- ./vid
+- ./vsh
+- ./vsh0
+- ./vsh_boot
+- ./vsh_boot2
+- ./wabt
+- ./wasm
+- ./wheelreinvention
+- ./wordcloud
+- ./xml 2 js
+- ./zodetrip-0.9.7-src
+- ./zz-md2braces-abandoned

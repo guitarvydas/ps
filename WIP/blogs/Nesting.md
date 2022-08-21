@@ -31,18 +31,3 @@ PEG parsing can match balanced parentheses (actually, balanced anything).
 This kind of parsing allows us to get away even longer using ASCII Art to represent nested languages.
 
 *observation*: Nesting is needed only when the program does not fit in an eye-full (e.g. an editing window) ; corollary - we don't need nesting when code is only 5 lines long (in fact, global variables are not even a problem at that scale (in functional notation, lack-of-nesting is called "free variables"))
-
-# See Also
-
-[Table of Contents](https://guitarvydas.github.io/2021/12/10/Table-of-Contents-Dec-01-2021.html)
-[Blog](https://guitarvydas.github.io)
-[Videos](https://www.youtube.com/channel/UC9EJr0nKHwadbHUtc5zHdmQ/videos)
-[References](https://guitarvydas.github.io/2021/01/14/References.html)
-
-<script src="https://utteranc.es/client.js" 
-        repo="guitarvydas/guitarvydas.github.io" 
-        issue-term="pathname" 
-        theme="github-light" 
-        crossorigin="anonymous" 
-        async> 
-</script> 

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.2" ID="68AEFC4D-202F-480B-AA5D-F211A8233F2B">
+  <Notes>
+    <Note ID="4" FontSize="12.0" Position="327.1,64.4" Width="118.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>divide and conquer</String>
+      <ConnectedNoteIDs>7-8</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="7" FontSize="12.0" Position="277.7,112.5" Width="85.3">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>multitasking</String>
+      <ConnectedNoteIDs>4, 20-21</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="8" FontSize="12.0" Position="454.5,115.4" Width="101.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>device handlers</String>
+      <ConnectedNoteIDs>4, 22</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="20" FontSize="12.0" Position="67.3,149.8" Width="187.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>multitasking is hard using LIFOs</String>
+      <ConnectedNoteIDs>7, 25, 49-50</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="21" FontSize="12.0" Position="287.3,154.4" Width="189.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>multitasking is easy using FIFOs</String>
+      <ConnectedNoteIDs>7, 24</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="22" FontSize="12.0" Position="556.3,161.3" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>snap-together software LEGO blocks</String>
+      <ConnectedNoteIDs>8, 23, 51</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="23" FontSize="12.0" Position="588.6,213.7" Width="145.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>0D (zero dependencies)</String>
+      <ConnectedNoteIDs>22, 53</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="24" FontSize="12.0" Position="287.6,265.3" Width="187.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>UNIX pipes use FIFOs (queues)</String>
+      <ConnectedNoteIDs>21</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="25" FontSize="12.0" Position="10.5,221.5" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>most programming languages use LIFOs (call stack)</String>
+      <ConnectedNoteIDs>20</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="49" FontSize="12.0" Position="40.2,266.6" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>LIFOs (call stack) makes sense only for 1-CPU systems</String>
+      <ConnectedNoteIDs>20</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="50" FontSize="12.0" Position="122.8,306.8" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>LIFOs (call stack) does not make sense for distributed systems</String>
+      <ConnectedNoteIDs>20</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="51" FontSize="12.0" Position="754.0,216.3" Width="117.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>multiple languages</String>
+      <ConnectedNoteIDs>22</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="53" FontSize="12.0" Position="591.7,265.3" Width="109.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>0D already exists</String>
+      <ConnectedNoteIDs>23, 54, 63</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="54" FontSize="12.0" Position="641.9,374.6" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>complete isolation (data &amp; control flow isolation) provided by O/S envelopes called “processes”</String>
+      <ConnectedNoteIDs>53</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="63" FontSize="12.0" Position="473.3,328.2" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183115959167 0.7627586722373962 0.7658078670501709</Border>
+        <Fill>0.9948 0.8577 0.9998</Fill>
+      </Appearance>
+      <String>Q: How to implement 0D using existing languages?</String>
+      <ConnectedNoteIDs>53</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+  </Notes>
+  <BackgroundShapes/>
+  <AutoFit>4, 8, 20-21, 23-24, 51, 53</AutoFit>
+  <NoteStyles>
+    <Style Name="Bubble (Blue)" ID="481F58DA-9E4A-41EA-BBB7-229DBD7549CB" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.668962 0.810287 0.895092</BorderColor>
+      <FillColor>0.743291 0.900319 0.994547</FillColor>
+    </Style>
+    <Style Name="Bubble (Green)" ID="CB8E7A88-C092-4AA5-8E6D-7F620AEAEEE9" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.669404 0.885265 0.567007</BorderColor>
+      <FillColor>0.743783 0.983628 0.630008</FillColor>
+    </Style>
+    <Style Name="Bubble (Pink)" ID="FEF6DEA6-DC08-4710-9A65-0FE281CA1B9D" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+      <FillColor>0.989115 0.814114 0.999483</FillColor>
+    </Style>
+    <Style Name="Bubble (Red)" ID="6E04953C-D630-421A-B13A-FB3CAC456311" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+      <FillColor>0.993942 0.786413 0.795449</FillColor>
+    </Style>
+    <Style Name="Bubble (Yellow)" ID="13463DAA-D233-4E64-9BCD-C7A13111951A" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.877748 0.828289 0.562126</BorderColor>
+      <FillColor>0.975275 0.920321 0.624585</FillColor>
+    </Style>
+    <Style Name="Red Text" ID="382C3730-2ACF-469D-B97C-7906504EC6D5" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+      <TextColor>0.985954 0.0 0.02694</TextColor>
+    </Style>
+    <Style Name="Title Text" ID="DE404870-EFE3-4FCB-97DA-B3FB8978D7D3" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+      <FontSize>28.0</FontSize>
+      <IsBold>Yes</IsBold>
+    </Style>
+  </NoteStyles>
+  <UISettings>
+    <BackgroundColor>0.999763 0.988395 0.949915</BackgroundColor>
+    <DefaultFont>Helvetica</DefaultFont>
+    <NoteXPadding>8.0</NoteXPadding>
+  </UISettings>
+  <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
+</ScappleDocument>

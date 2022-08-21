@@ -14,8 +14,8 @@ This book will introduce one such DSL for pattern-matching, called Ohm-JS.
 
 An SCN (Solution Centric Notation) is like a DSL (Domain Specific Language), expect more specific.  Knowing how to sling the pattern-matching paradigm around, allows programmers to think differently about how to solve problems.  I've coined the term *SCN* to describe a new way of looking at programming using multiple mini-languages.
 
-Historically, *parsing* has been associated with compiler design.  Parsing is a subset of the pattern-matching paradigm.
+Historically, *parsing* has been associated with compiler design.  Parsing is just a subset of the pattern-matching paradigm.
 
-Compilers need to use the pattern-matching paradigm.  Pattern-matching is called "parsing", when used by a compiler.  
+Compilers are programs that need to use the pattern-matching paradigm.  When used for building a compiler program, pattern-matching is called "parsing".  
 
 Programmers can use the pattern-matching paradigm in non-compiler apps.

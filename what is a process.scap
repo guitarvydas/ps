@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.2" ID="32405829-CAC0-4DD3-A63D-47F2CEBEAB4E">
+  <Notes>
+    <Note ID="55" FontSize="12.0" Position="269.4,95.2" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.0 0.0 0.0</TextColor>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>a “process” is a state machine that runs a λ</String>
+      <ConnectedNoteIDs>56, 60, 63</ConnectedNoteIDs>
+    </Note>
+    <Note ID="56" FontSize="12.0" Position="486.6,151.0" Width="61.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>blocking</String>
+      <ConnectedNoteIDs>55, 57-58</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="57" FontSize="12.0" Position="390.0,192.3" Width="103.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>processes block</String>
+      <ConnectedNoteIDs>56</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="58" FontSize="12.0" Position="538.0,189.7" Width="199.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.0 0.0 0.0</TextColor>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>functions (λ) block (wait for callee)</String>
+      <ConnectedNoteIDs>56</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="59" FontSize="12.0" Position="142.1,267.4" Width="106.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Harel StateChart</String>
+      <ConnectedNoteIDs>60, 64</ConnectedNoteIDs>
+    </Note>
+    <Note ID="60" FontSize="12.0" Position="250.3,222.9" Width="43.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>HSM</String>
+      <ConnectedNoteIDs>55, 59, 61</ConnectedNoteIDs>
+    </Note>
+    <Note ID="61" FontSize="12.0" Position="291.1,264.5" Width="223.5">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>remove multitasking (“orthogonal states”)</String>
+      <ConnectedNoteIDs>60, 62</ConnectedNoteIDs>
+    </Note>
+    <Note ID="62" FontSize="12.0" Position="301.0,308.9" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>multitasking moved to a different notation (DaS, FBP, etc.)</String>
+      <ConnectedNoteIDs>61</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="63" FontSize="12.0" Position="295.8,17.9" Width="116.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199762463569641 0.8974809646606445 0.6336728930473328</Border>
+        <Fill>0.7837004065513611 0.9758002161979675 0.6903001070022583</Fill>
+      </Appearance>
+      <String>what is a process?</String>
+      <ConnectedNoteIDs>55</ConnectedNoteIDs>
+    </Note>
+    <Note ID="64" FontSize="12.0" Position="0.2,364.5" Width="325.1">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.0 0.0 0.0</TextColor>
+        <Border Weight="1">0.7199762463569641 0.8974809646606445 0.6336728930473328</Border>
+        <Fill>0.8645145808 0.9758002162 0.8495482729</Fill>
+      </Appearance>
+      <String>https://guitarvydas.github.io/2020/12/09/StateCharts.html</String>
+      <ConnectedNoteIDs>59</ConnectedNoteIDs>
+    </Note>
+  </Notes>
+  <BackgroundShapes/>
+  <AutoFit>56-60, 63</AutoFit>
+  <NoteStyles>
+    <Style Name="Bubble (Blue)" ID="872088C4-81E1-4FAC-9F2D-7917677CA7FF" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.668962 0.810287 0.895092</BorderColor>
+      <FillColor>0.743291 0.900319 0.994547</FillColor>
+    </Style>
+    <Style Name="Bubble (Green)" ID="9A30E3FD-387A-4FC5-B24B-48AA41B2CE89" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.669404 0.885265 0.567007</BorderColor>
+      <FillColor>0.743783 0.983628 0.630008</FillColor>
+    </Style>
+    <Style Name="Bubble (Pink)" ID="1A7D0EB3-F402-45E2-9523-152CB8B17200" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+      <FillColor>0.989115 0.814114 0.999483</FillColor>
+    </Style>
+    <Style Name="Bubble (Red)" ID="AD046F87-4CA7-46CE-BF40-D4DE1B4A91EE" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+      <FillColor>0.993942 0.786413 0.795449</FillColor>
+    </Style>
+    <Style Name="Bubble (Yellow)" ID="D3E8BDF5-892F-4628-9EEE-C534EFC3CDCF" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.877748 0.828289 0.562126</BorderColor>
+      <FillColor>0.975275 0.920321 0.624585</FillColor>
+    </Style>
+    <Style Name="Red Text" ID="7F5FF812-D3A6-4C06-9D13-8FFF5D96AFAF" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+      <TextColor>0.985954 0.0 0.02694</TextColor>
+    </Style>
+    <Style Name="Title Text" ID="73B86916-C410-4F6F-AE42-2B0905777480" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+      <FontSize>28.0</FontSize>
+      <IsBold>Yes</IsBold>
+    </Style>
+  </NoteStyles>
+  <UISettings>
+    <BackgroundColor>0.999763 0.988395 0.949915</BackgroundColor>
+    <DefaultFont>Helvetica</DefaultFont>
+    <NoteXPadding>8.0</NoteXPadding>
+  </UISettings>
+  <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
+</ScappleDocument>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.2" ID="FA3DC5B0-34A0-4BD1-A5AA-3ED22FBE46C8">
+  <Notes>
+    <Note ID="0" FontSize="12.0" Position="472.8,143.1" Width="119.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9024706482887268 0.8555303812026978 0.628868043422699</Border>
+        <Fill>0.9812 0.9304 0.6851</Fill>
+      </Appearance>
+      <String>Operating Systems</String>
+      <ConnectedNoteIDs>1-4, 30, 77</ConnectedNoteIDs>
+    </Note>
+    <Note ID="1" FontSize="12.0" Position="473.3,0.0" Width="117.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9024706482887268 0.8555303812026978 0.628868043422699</Border>
+        <Fill>0.9812 0.9304 0.6851</Fill>
+      </Appearance>
+      <String>Wheel Reinvention</String>
+      <ConnectedNoteIDs>0</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="2" FontSize="12.0" Position="633.7,132.7" Width="63.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183115959167 0.7627586722373962 0.7658078670501709</Border>
+        <Fill>0.9948 0.8577 0.9998</Fill>
+      </Appearance>
+      <String>Q: Why?</String>
+      <ConnectedNoteIDs>0</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="3" FontSize="12.0" Position="155.3,276.6" Width="118.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>divide and conquer</String>
+      <ConnectedNoteIDs>0, 5-6</ConnectedNoteIDs>
+    </Note>
+    <Note ID="4" FontSize="12.0" Position="399.1,270.3" Width="118.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>divide and conquer</String>
+      <ConnectedNoteIDs>0, 7-8</ConnectedNoteIDs>
+    </Note>
+    <Note ID="5" FontSize="12.0" Position="108.9,317.0" Width="69.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>developer</String>
+      <ConnectedNoteIDs>3</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="6" FontSize="12.0" Position="248.5,320.4" Width="64.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>end-user</String>
+      <ConnectedNoteIDs>3</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="7" FontSize="12.0" Position="349.7,318.4" Width="85.3">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>multitasking</String>
+      <ConnectedNoteIDs>4</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="8" FontSize="12.0" Position="476.7,323.4" Width="101.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>device handlers</String>
+      <ConnectedNoteIDs>4</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="30" FontSize="12.0" Position="662.8,275.9" Width="69.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>bloatware</String>
+      <ConnectedNoteIDs>0, 38-39</ConnectedNoteIDs>
+    </Note>
+    <Note ID="38" FontSize="12.0" Position="600.9,324.9" Width="56.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>bloated</String>
+      <ConnectedNoteIDs>30</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="39" FontSize="12.0" Position="741.5,326.6" Width="76.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>not bloated</String>
+      <ConnectedNoteIDs>30</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="77" FontSize="12.0" Position="871.0,270.0" Width="116.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>what is a process?</String>
+      <ConnectedNoteIDs>0, 78-79</ConnectedNoteIDs>
+    </Note>
+    <Note ID="78" FontSize="12.0" Position="834.0,327.2" Width="61.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>blocking</String>
+      <ConnectedNoteIDs>77</ConnectedNoteIDs>
+    </Note>
+    <Note ID="79" FontSize="12.0" Position="943.3,327.0" Width="91.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>state machine</String>
+      <ConnectedNoteIDs>77</ConnectedNoteIDs>
+    </Note>
+  </Notes>
+  <BackgroundShapes/>
+  <AutoFit>0-6, 8, 30, 38-39, 77-79</AutoFit>
+  <NoteStyles>
+    <Style Name="Bubble (Blue)" ID="B6E4B43E-4F0E-4F45-BB1D-352332C89C1C" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.668962 0.810287 0.895092</BorderColor>
+      <FillColor>0.743291 0.900319 0.994547</FillColor>
+    </Style>
+    <Style Name="Bubble (Green)" ID="B97AFB92-14BF-4F27-8054-C9705DF81A9E" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.669404 0.885265 0.567007</BorderColor>
+      <FillColor>0.743783 0.983628 0.630008</FillColor>
+    </Style>
+    <Style Name="Bubble (Pink)" ID="FA97B33E-A926-4C87-93E0-01926AF124F1" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+      <FillColor>0.989115 0.814114 0.999483</FillColor>
+    </Style>
+    <Style Name="Bubble (Red)" ID="B3B9D6B6-7BF6-4389-834C-CA1895F4E498" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+      <FillColor>0.993942 0.786413 0.795449</FillColor>
+    </Style>
+    <Style Name="Bubble (Yellow)" ID="E8FCD9D8-16D1-4920-98A9-AAA1B7302C44" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.877748 0.828289 0.562126</BorderColor>
+      <FillColor>0.975275 0.920321 0.624585</FillColor>
+    </Style>
+    <Style Name="Red Text" ID="2FF4C94D-7DEC-4597-B811-84BF62908CC5" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+      <TextColor>0.985954 0.0 0.02694</TextColor>
+    </Style>
+    <Style Name="Title Text" ID="12FBBADE-AEC9-4608-85C0-E4798EAE8786" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+      <FontSize>28.0</FontSize>
+      <IsBold>Yes</IsBold>
+    </Style>
+  </NoteStyles>
+  <UISettings>
+    <BackgroundColor>0.999763 0.988395 0.949915</BackgroundColor>
+    <DefaultFont>Helvetica</DefaultFont>
+    <NoteXPadding>8.0</NoteXPadding>
+  </UISettings>
+  <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
+</ScappleDocument>

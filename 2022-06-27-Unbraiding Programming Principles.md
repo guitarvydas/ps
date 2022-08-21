@@ -1,0 +1,6 @@
+[[2022-06-25-Unbraiding Parallelism]]
+[[2022-06-25-Unbraiding Syntax]]
+[[2022-06-25-Unbraiding Visual Programming]]
+[[2022-06-26-Compiling vs. Modelling]]
+[[2022-06-27-If All You Have Is A Hammer Everything Looks Like A Nail]]
+[[2022-06-27-Sequential Scheduling]]

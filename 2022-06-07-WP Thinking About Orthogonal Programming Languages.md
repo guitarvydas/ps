@@ -52,3 +52,6 @@ The Global Variable problem was solved by containment.  The only reason that glo
 ATM, I find it easier to *think* about a problem and develop it and express it in draw.io.  After that, I can hand-transpile the diagrams to code in N0D languages.  In fact, I've been drawing diagrams, then hand-transpiling them to fugly text, then using Ohm-JS to crank out JS/Python/Lisp code for me.
 
 This is part of what I learned beeing interested in compilers.  At first, assembler programmers thought that HLLs were inefficient.  Assembler programmers could hand-craft code that blew away most normalized compiler-emitted code (SmallC).  Then, GCC came out and blew away all the old assembler programmers.  Then, the old assembler programmers retired and, now, no one bothers to use assembler to express high-level thinking anymore.
+
+See Also
+[[2022-06-06-Toolbox and Orthogonal Programming Languages]]

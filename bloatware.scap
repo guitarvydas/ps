@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.2" ID="EB68955C-3036-465D-8F07-5304D25CCC35">
+  <Notes>
+    <Note ID="30" FontSize="12.0" Position="379.0,20.0" Width="69.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>bloatware</String>
+      <ConnectedNoteIDs>38-39</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="31" FontSize="12.0" Position="25.5,127.6" Width="169.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>traditional operating systems</String>
+      <ConnectedNoteIDs>38</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="32" FontSize="12.0" Position="140.1,165.9" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>traditional programming languages</String>
+      <ConnectedNoteIDs>38</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="33" FontSize="12.0" Position="409.1,218.2" Width="77.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Sector Lisp</String>
+      <ConnectedNoteIDs>34, 39, 43, 52</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="34" FontSize="12.0" Position="444.1,262.1" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>many orders of magnitude smaller than most languages</String>
+      <ConnectedNoteIDs>33, 35</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="35" FontSize="12.0" Position="455.1,313.3" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.0 0.0 0.0</TextColor>
+        <Border Weight="1">0.9189183115959167 0.7627586722373962 0.7658078670501709</Border>
+        <Fill>0.9948 0.8577 0.9998</Fill>
+      </Appearance>
+      <String>Q: is Sector Lisp’s smallness due only to Assembler Parlour Tricks, or, is there something deeper going on?</String>
+      <ConnectedNoteIDs>34</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="36" FontSize="12.0" Position="718.5,215.4" Width="53.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>games</String>
+      <ConnectedNoteIDs>37, 39</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="37" FontSize="12.0" Position="726.6,260.7" Width="165.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>used to be simple and small</String>
+      <ConnectedNoteIDs>36, 40</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="38" FontSize="12.0" Position="253.9,82.1" Width="56.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>bloated</String>
+      <ConnectedNoteIDs>30-32</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="39" FontSize="12.0" Position="521.0,78.0" Width="63.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>not bloat</String>
+      <ConnectedNoteIDs>30, 33, 36</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="40" FontSize="12.0" Position="755.7,298.9" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>took over whole machine, no Operating System</String>
+      <ConnectedNoteIDs>37, 42</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="41" FontSize="12.0" Position="747.9,402.1" Width="171.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.0 0.0 0.0</TextColor>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Loop:
+   call continuationCheck λ
+   branch on stop to EndLoop
+   call step function λ
+   branch Loop
+EndLoop:</String>
+      <ConnectedNoteIDs>42</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="42" FontSize="12.0" Position="762.0,359.2" Width="118.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>simple multitasking</String>
+      <ConnectedNoteIDs>40-41</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="43" FontSize="12.0" Position="335.1,388.9" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Garbage Collector - 40 bytes [sic, bytes, not K, not M, not G, not T]</String>
+      <ConnectedNoteIDs>33</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+    <Note ID="52" FontSize="12.0" Position="260.1,472.2" Width="160.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.0 0.0 0.0</TextColor>
+        <Border Weight="1"/>
+        <Fill>0.8219378124 0.988 0.8607083779</Fill>
+      </Appearance>
+      <String>https://justine.lol/sectorlisp/</String>
+      <ConnectedNoteIDs>33</ConnectedNoteIDs>
+      <PointsToNoteIDs/>
+    </Note>
+  </Notes>
+  <BackgroundShapes/>
+  <AutoFit>30-31, 33, 36-39, 41-42, 52</AutoFit>
+  <NoteStyles>
+    <Style Name="Bubble (Blue)" ID="2020310B-690A-49C7-AEFA-555404EB535A" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.668962 0.810287 0.895092</BorderColor>
+      <FillColor>0.743291 0.900319 0.994547</FillColor>
+    </Style>
+    <Style Name="Bubble (Green)" ID="C195D12F-AE29-4390-86EC-F4FB3EA0A7B0" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.669404 0.885265 0.567007</BorderColor>
+      <FillColor>0.743783 0.983628 0.630008</FillColor>
+    </Style>
+    <Style Name="Bubble (Pink)" ID="458253F9-AEA8-446A-BF4D-B5A297742CAA" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+      <FillColor>0.989115 0.814114 0.999483</FillColor>
+    </Style>
+    <Style Name="Bubble (Red)" ID="65292793-18CC-48FC-A26C-2BA15F256B0D" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+      <FillColor>0.993942 0.786413 0.795449</FillColor>
+    </Style>
+    <Style Name="Bubble (Yellow)" ID="ABB3EAD5-F3B0-4D6F-83D3-16D2DDBB4824" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.877748 0.828289 0.562126</BorderColor>
+      <FillColor>0.975275 0.920321 0.624585</FillColor>
+    </Style>
+    <Style Name="Red Text" ID="2E138576-9A66-42BA-95D0-0D4D698A7795" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+      <TextColor>0.985954 0.0 0.02694</TextColor>
+    </Style>
+    <Style Name="Title Text" ID="B2E3902B-BDC0-4BCF-BF98-D8F6A3B16AB0" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+      <FontSize>28.0</FontSize>
+      <IsBold>Yes</IsBold>
+    </Style>
+  </NoteStyles>
+  <UISettings>
+    <BackgroundColor>0.999763 0.988395 0.949915</BackgroundColor>
+    <DefaultFont>Helvetica</DefaultFont>
+    <NoteXPadding>8.0</NoteXPadding>
+  </UISettings>
+  <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
+</ScappleDocument>

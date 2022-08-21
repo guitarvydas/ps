@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.2" ID="231EBA9D-F9A3-4BFC-B251-9332DD0A5C94">
+  <Notes>
+    <Note ID="0" FontSize="12.0" Position="375.0,84.0" Width="192.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Pluggable Software Components</String>
+      <ConnectedNoteIDs>1-2</ConnectedNoteIDs>
+    </Note>
+    <Note ID="1" FontSize="12.0" Position="370.3,135.1" Width="32.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>0D</String>
+      <ConnectedNoteIDs>0, 21, 37, 41</ConnectedNoteIDs>
+    </Note>
+    <Note ID="2" FontSize="12.0" Position="598.4,135.3" Width="163.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Rethink Operating Systems</String>
+      <ConnectedNoteIDs>0, 3, 7</ConnectedNoteIDs>
+    </Note>
+    <Note ID="3" FontSize="12.0" Position="586.3,201.6" Width="82.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>huge - why?</String>
+      <ConnectedNoteIDs>2, 4</ConnectedNoteIDs>
+    </Note>
+    <Note ID="4" FontSize="12.0" Position="537.0,251.0" Width="111.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Study Sector Lisp</String>
+      <ConnectedNoteIDs>3, 5</ConnectedNoteIDs>
+    </Note>
+    <Note ID="5" FontSize="12.0" Position="503.4,292.1" Width="174.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Why is Sector Lisp So Small?</String>
+      <ConnectedNoteIDs>4, 6</ConnectedNoteIDs>
+    </Note>
+    <Note ID="6" FontSize="12.0" Position="520.8,338.3" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Can’t Be Due Solely To Assembler Parlour Tricks</String>
+      <ConnectedNoteIDs>5</ConnectedNoteIDs>
+    </Note>
+    <Note ID="7" FontSize="12.0" Position="848.0,207.0" Width="123.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Divide and Conquer</String>
+      <ConnectedNoteIDs>2, 8-9</ConnectedNoteIDs>
+    </Note>
+    <Note ID="8" FontSize="12.0" Position="819.6,260.7" Width="169.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>various devices / peripherals</String>
+      <ConnectedNoteIDs>7, 10</ConnectedNoteIDs>
+    </Note>
+    <Note ID="9" FontSize="12.0" Position="1054.9,233.9" Width="80.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>multitasking</String>
+      <ConnectedNoteIDs>7, 43</ConnectedNoteIDs>
+    </Note>
+    <Note ID="10" FontSize="12.0" Position="830.7,323.0" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>normalization - make all devices appear to be the same software-wise</String>
+      <ConnectedNoteIDs>8, 11</ConnectedNoteIDs>
+    </Note>
+    <Note ID="11" FontSize="12.0" Position="839.0,405.0" Width="93.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>a la UNIX FDs</String>
+      <ConnectedNoteIDs>10</ConnectedNoteIDs>
+    </Note>
+    <Note ID="12" FontSize="12.0" Position="1092.0,313.0" Width="122.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.0 0.0 0.0</TextColor>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>inner concurrency ė</String>
+      <ConnectedNoteIDs>13, 44</ConnectedNoteIDs>
+    </Note>
+    <Note ID="13" FontSize="12.0" Position="1089.0,366.0" Width="99.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>State Machines</String>
+      <ConnectedNoteIDs>12, 14</ConnectedNoteIDs>
+    </Note>
+    <Note ID="14" FontSize="12.0" Position="1074.0,411.0" Width="148.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>State Explosion Problem</String>
+      <ConnectedNoteIDs>13, 15</ConnectedNoteIDs>
+    </Note>
+    <Note ID="15" FontSize="12.0" Position="1080.0,454.0" Width="112.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Harel StateCharts</String>
+      <ConnectedNoteIDs>14, 16, 19</ConnectedNoteIDs>
+    </Note>
+    <Note ID="16" FontSize="12.0" Position="1063.0,498.0" Width="117.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>inverse inheritance</String>
+      <ConnectedNoteIDs>15, 17</ConnectedNoteIDs>
+    </Note>
+    <Note ID="17" FontSize="12.0" Position="1061.3,535.2" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>encapsulation, each level makes stand-alone sense</String>
+      <ConnectedNoteIDs>16, 18</ConnectedNoteIDs>
+    </Note>
+    <Note ID="18" FontSize="12.0" Position="1074.8,597.5" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>parent overrides child, child cannot override parent (like windowing systems first dibs on event, then pass it down)</String>
+      <ConnectedNoteIDs>17</ConnectedNoteIDs>
+    </Note>
+    <Note ID="19" FontSize="12.0" Position="1317.0,460.0" Width="43.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>HSM</String>
+      <ConnectedNoteIDs>15, 20, 34-35</ConnectedNoteIDs>
+    </Note>
+    <Note ID="20" FontSize="12.0" Position="1361.4,503.6" Width="162.8">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>remove concurrency (AKA “orthogonal states”)</String>
+      <ConnectedNoteIDs>19</ConnectedNoteIDs>
+    </Note>
+    <Note ID="21" FontSize="12.0" Position="331.1,208.4" Width="106.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>FIFOs not LIFOs</String>
+      <ConnectedNoteIDs>1, 22-23, 39-40</ConnectedNoteIDs>
+    </Note>
+    <Note ID="22" FontSize="12.0" Position="259.9,244.0" Width="185.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Function Call/Return uses LIFO</String>
+      <ConnectedNoteIDs>21, 38</ConnectedNoteIDs>
+    </Note>
+    <Note ID="23" FontSize="12.0" Position="266.3,290.8" Width="132.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>UNIX Pipes use FIFO</String>
+      <ConnectedNoteIDs>21</ConnectedNoteIDs>
+    </Note>
+    <Note ID="24" FontSize="12.0" Position="42.0,180.1" Width="40.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>DaS</String>
+      <ConnectedNoteIDs>25, 37</ConnectedNoteIDs>
+    </Note>
+    <Note ID="25" FontSize="12.0" Position="15.0,209.0" Width="125.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>SVG Tech Diagrams</String>
+      <ConnectedNoteIDs>24, 26-28</ConnectedNoteIDs>
+    </Note>
+    <Note ID="26" FontSize="12.0" Position="49.4,246.7" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Not VPL, Don’t need to parse general Visual Art, parse very restricted form</String>
+      <ConnectedNoteIDs>25, 33</ConnectedNoteIDs>
+    </Note>
+    <Note ID="27" FontSize="12.0" Position="18.0,322.0" Width="141.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Text is a subset of SVG</String>
+      <ConnectedNoteIDs>25</ConnectedNoteIDs>
+    </Note>
+    <Note ID="28" FontSize="12.0" Position="83.7,368.6" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>need: boxes, ellipses, lines, text, containment, connection</String>
+      <ConnectedNoteIDs>25, 29-31</ConnectedNoteIDs>
+    </Note>
+    <Note ID="29" FontSize="12.0" Position="109.5,425.1" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>SVG elements for boxes, ellipses, text, lines</String>
+      <ConnectedNoteIDs>28</ConnectedNoteIDs>
+    </Note>
+    <Note ID="30" FontSize="12.0" Position="204.0,471.0" Width="168.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>SVG groups for containment</String>
+      <ConnectedNoteIDs>28</ConnectedNoteIDs>
+    </Note>
+    <Note ID="31" FontSize="12.0" Position="110.7,503.1" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>draw.io provides Source and Target for connectors</String>
+      <ConnectedNoteIDs>28, 32</ConnectedNoteIDs>
+    </Note>
+    <Note ID="32" FontSize="12.0" Position="203.9,549.4" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Source and Target can be inferred (e.g. PROLOG, miniKanren, core.logic, etc.) using bounding boxes for each shape</String>
+      <ConnectedNoteIDs>31</ConnectedNoteIDs>
+    </Note>
+    <Note ID="33" FontSize="12.0" Position="216.7,323.4" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>like text programming languages vs. general English Prose</String>
+      <ConnectedNoteIDs>26</ConnectedNoteIDs>
+    </Note>
+    <Note ID="34" FontSize="12.0" Position="1321.5,548.4" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>HSMs encapsulate LIFO-based functions</String>
+      <ConnectedNoteIDs>19</ConnectedNoteIDs>
+    </Note>
+    <Note ID="35" FontSize="12.0" Position="1396.0,435.0" Width="211.5">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.0 0.0 0.0</TextColor>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>https://github.com/guitarvydas/hsm</String>
+      <ConnectedNoteIDs>19</ConnectedNoteIDs>
+    </Note>
+    <Note ID="36" FontSize="12.0" Position="1278.0,315.0" Width="170.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Structured Message Passing</String>
+      <ConnectedNoteIDs>44</ConnectedNoteIDs>
+    </Note>
+    <Note ID="37" FontSize="12.0" Position="127.0,163.0" Width="155.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Side-effect of 0D “for free”</String>
+      <ConnectedNoteIDs>1, 24</ConnectedNoteIDs>
+    </Note>
+    <Note ID="38" FontSize="12.0" Position="363.6,424.3" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>McCarthy’s Lisp -&gt; alists -&gt; stacks -&gt; LIFOs</String>
+      <ConnectedNoteIDs>22</ConnectedNoteIDs>
+    </Note>
+    <Note ID="39" FontSize="12.0" Position="482.1,485.0" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Stacks make sense for single-CPU systems</String>
+      <ConnectedNoteIDs>21</ConnectedNoteIDs>
+    </Note>
+    <Note ID="40" FontSize="12.0" Position="609.2,436.1" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Stacks don’t make sense for distributed computing</String>
+      <ConnectedNoteIDs>21</ConnectedNoteIDs>
+    </Note>
+    <Note ID="41" FontSize="12.0" Position="443.0,169.0" Width="75.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>decoupling</String>
+      <ConnectedNoteIDs>1</ConnectedNoteIDs>
+    </Note>
+    <Note ID="43" FontSize="12.0" Position="1173.1,241.9" Width="118.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>divide and conquer</String>
+      <ConnectedNoteIDs>9, 44-45</ConnectedNoteIDs>
+    </Note>
+    <Note ID="44" FontSize="12.0" Position="1215.3,267.9" Width="80.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>simultaneity</String>
+      <ConnectedNoteIDs>12, 36, 43</ConnectedNoteIDs>
+    </Note>
+    <Note ID="45" FontSize="12.0" Position="1347.0,229.0" Width="32.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>0D</String>
+      <ConnectedNoteIDs>43</ConnectedNoteIDs>
+    </Note>
+    <Note ID="46" FontSize="12.0" Position="1082.0,140.0" Width="49.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>layers</String>
+    </Note>
+  </Notes>
+  <BackgroundShapes/>
+  <AutoFit>0-5, 7-9, 11-16, 19, 21-25, 27, 30, 36-37, 41, 43-46</AutoFit>
+  <NoteStyles>
+    <Style Name="Bubble (Blue)" ID="2F8AE34C-22AB-43ED-A47A-01E05E1E2ED3" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.668962 0.810287 0.895092</BorderColor>
+      <FillColor>0.743291 0.900319 0.994547</FillColor>
+    </Style>
+    <Style Name="Bubble (Green)" ID="C2672431-7B20-4EB7-AB59-3184EFB6BA38" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.669404 0.885265 0.567007</BorderColor>
+      <FillColor>0.743783 0.983628 0.630008</FillColor>
+    </Style>
+    <Style Name="Bubble (Pink)" ID="30A55AFD-74A3-461B-AB7F-1E487CABD6A0" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+      <FillColor>0.989115 0.814114 0.999483</FillColor>
+    </Style>
+    <Style Name="Bubble (Red)" ID="6BE4B8A0-4AC2-41CC-95C6-BAF138E8E227" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+      <FillColor>0.993942 0.786413 0.795449</FillColor>
+    </Style>
+    <Style Name="Bubble (Yellow)" ID="CCB419DD-BE3F-46FC-94BC-933472CA3780" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.877748 0.828289 0.562126</BorderColor>
+      <FillColor>0.975275 0.920321 0.624585</FillColor>
+    </Style>
+    <Style Name="Red Text" ID="6CB34D04-B5FF-42CC-809A-F1ABFB0BD104" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+      <TextColor>0.985954 0.0 0.02694</TextColor>
+    </Style>
+    <Style Name="Title Text" ID="706568E9-0139-4AD7-83D9-0BF85EE0332C" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+      <FontSize>28.0</FontSize>
+      <IsBold>Yes</IsBold>
+    </Style>
+  </NoteStyles>
+  <UISettings>
+    <BackgroundColor>0.999763 0.988395 0.949915</BackgroundColor>
+    <DefaultFont>Helvetica</DefaultFont>
+    <NoteXPadding>8.0</NoteXPadding>
+  </UISettings>
+  <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
+</ScappleDocument>

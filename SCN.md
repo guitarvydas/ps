@@ -1,20 +1,28 @@
 ## SCN
-I call mini-DSLs *SCN*s (Solution-Centric Notations)
+I call mini-DSLs *SCN*s (Solution-Centric Notations). I use the name SCN (Solution Centric Notation) to mean DSLs that are not generalized, but, are specialized for a particular problem.  
 
-The name *SCN*, reminds me that I shouldn't waste lots of time tuning the code.  
+  I believe that, with Ohm-JS, programmers can build *several* SCNs for a specific problem instead of building generalized DSLs.  
+ 
+ To me, SCNs are like batch-edit operations.  You should be able to build an SCN in an afternoon without breaking a sweat.  
+ 
+ If you use REGEX for projects, then you already use SCNs, albeit with a write-only syntax.
+ 
+Using the name *SCN*, reminds me that I shouldn't waste lots of time tuning the code.  
 
-I expect to crank out an SCN in only a few hours.  With Ohm and divide-and-conquer, I can do this.  I let the underlying language (Pyhon, JS, etc.) do the heavy work of checking for errors and figuring out what the final code will look like.  
+I expect to crank out a new SCN in only a few hours.  With Ohm and divide-and-conquer, I can do this.  I let the underlying language (Pyhon, JS, etc.) do the heavy work of checking for errors and figuring out what the final code will look like.  
 
-I use Ohm like I use macros.  I hide implementation details, but, I don't do lots of checking (the next layer down, will check my work).  I don't even *define* user-defined data structures, I just use handles to data structures that are defined in layers below my code.
+I use Ohm like I use macros.  I hide implementation details, but, I don't do lots of checking.  I leave the checking to the next layer down.  I don't even define data structures, I just use handles to data structures that are defined in layers below my code.  
 
-Handles are common in operating systems.  If you want to open a *window* on a screen, you call the operating system to open the window and it passes back an opaque *handle* to the window, that only the operating system knows how to manipulate.
+Handles are common in operating systems.  If you want to open a *window* on a screen, you call the operating system to open the window and it passes back an opaque *handle* to the window.  Only the operating system knows how to manipulate the data associated with a *handle*.
 
-Programming can be like that.  Instead of using a GPL (General Purpose programming Language), we can use an SCN.  The SCN transpiler boils the mini-DSL notation down to GPL code.
+In essence, there are only two (2) kinds of data:
+- a datum
+- a list of data.
+
+Everything else is an implementation detail.
+
+Instead of using a GPL (General Purpose programming Language) for programming, we can use many little SCNs.  The SCN transpiler boils mini-DSL notation down to GPL code.
 
 In fact, one SCN can feed another SCN and so on.  Each layer adds/subtracts a bit of information and makes the final translation to GPL code easier.
 
-This is how I use the *prep* tool.  
 
-I compose an application in layers of successive *prep* calls.
-
-I give a simple Ohm grammar and a formatting spec to each layer.  I feed one layer's output to the next layer.  For example, to convert diagrams to text from .drawio files, I use a pipeline of four (4) calls to *prep*, followed by a few calls to standard text-manipulation commands (like *sed*) to clean up the final code.  (You can examine this code at [d2f (see d2f.bash)](https://github.com/guitarvydas/das/tree/main/d2f)  and [das](https://github.com/guitarvydas/das))

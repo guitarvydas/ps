@@ -14,3 +14,27 @@ I, then, transpiled the diagram to `handling.das`.  The transpilation was done m
 I used Ohm-JS to transpile `handling.das` into `handling.js`.  The transpiler is located in https://github.com/guitarvydas/duct, and invoked by `make handling.js`
 
 The code for the transpiler (grammar plus re-format) are discussed in [[Transpiler DaS]]
+
+# Appendix Handling.das
+```
+implementation deliverInputMessageToAllChildrenOfSelf (message)
+      { find connection from me on port message.etag
+        { lock connection
+          { for every receivers in connection => dest
+            { synonym params = {me, message, dest}
+              { cond
+                { dest.name is not me
+                  { #deliver_input_from_container_input_to_child_input <= params }
+                }
+                { dest.name is me
+                  { #deliver_input_from_container_input_to_me_output <= params }
+                }
+              }
+            }
+          }
+        }
+        { orelse
+          { pass }
+        }
+      }
+```

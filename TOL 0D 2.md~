@@ -1,0 +1,13 @@
+What is an epicycle?
+
+Today, for political correctness, we use the term workaround instead of the word epicycle. 
+
+Epicycle comes from the Ptolemaic cosmology that preceded Copernican cosmology. 
+
+We see that for programming the epicycle of using one in and one out, in a synchronous fashion, the way we think of functions at the moment, is breaking down.
+
+We have all sorts of tells and aren't noticing.
+
+One of the tells is that. We think callbacks are hard. Another tell it is the JavaScript programmers. Don't want to use monads and the other complicated forms of functional programming that, are being developed for. For them. Mother tell is that multitasking is considered to be hard. Actually. Multitasking is quite simple.
+
+It's it's on the order about 10 bytes long. Why do we need operating systems that are thousands of bytes long?
