@@ -4,12 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "c424e5009ddf78ea",
+        "id": "b198b9849f7fa778",
         "type": "leaf",
+        "dimension": 33.602693602693606,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-08-21-Eh Short Description.md",
+            "file": "Programming Simplicity/notes-20220926.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "2500f18484a45862",
+        "type": "leaf",
+        "dimension": 39.46127946127946,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Programming Simplicity/2022-09-25-Clockwork Thinking Impedes Progress.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "b92c8043147af9a6",
+        "type": "leaf",
+        "dimension": 26.936026936026938,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Programming Simplicity/notes-20220925.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "notes-202208",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -77,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-08-21-Eh Short Description.md",
+                "file": "Programming Simplicity/notes-20220926.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2022-08-21-Eh Short Description.md",
+                "file": "Programming Simplicity/notes-20220926.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-08-21-Eh Short Description.md"
+                "file": "Programming Simplicity/notes-20220926.md"
               }
             }
           }
@@ -128,17 +155,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c424e5009ddf78ea",
+  "active": "b198b9849f7fa778",
   "lastOpenFiles": [
-    "2022-08-21-Eh Pluggable Software Components.md",
-    "2022-08-21-Notes on Eh.md",
-    "notes-2022-08-13.md",
-    "notes-2022-08-08.md",
-    "notes-20220817.md",
-    "WIP/First Principles Thinking.md",
-    "Eh - Key Insights.md",
-    "structured message passing.png",
-    "Eh - Benefits.md",
-    "2022-05-30-Fire and Forget.md"
+    "Programming Simplicity/2022-09-25-Clockwork Thinking Impedes Progress.md",
+    "Programming Simplicity/notes-20220925.md",
+    "What I Learned in the Programming Trenches/Amazon.ca.md",
+    "What I Learned in the Programming Trenches/The Big 3.md",
+    "Grok naming.md",
+    "2022-09-20-Status.md",
+    "2022-09-20-Bloatware Caused By Type-Checking.md",
+    "2022-09-19-Project Collaboration Jams.md",
+    "Untitled 4.md",
+    "Papers/On Bloatware.md"
   ]
 }

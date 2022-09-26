@@ -60,6 +60,13 @@ Most non-programmers don't want to deal with (specify) all of the details.  The 
 Likewise, theorists are usually wrong about what tools would help the software-creation process.  A glaring example of this is the invention of language-theory and tools like YACC.  In 2004, the PEG process was (re-)invented and is markedly more flexible than YACC.  PEG is not based on language-theory.  PEG is essentially a DSL for specifying parsers directly, instead of using Language-Theory to for specifying parsers.  A very flexible manifestation of PEG is the Ohm-JS language.  Another example is the attempt to insert macros into programming languages.  Macros make more sense as part of editors, not programming languages.
 
 ## FDD vs Waterfall Design Method
+[Failure Driven Design](https://guitarvydas.github.io/2021/04/23/Failure-Driven-Design.html)
+
+If you don't iterate a Design or the understanding of the Requirements, you are designing using the Waterfall Method.
+
+Agile is an attempt to iterate a Design and Requirements (i.e. a very-slow REPL).
+
+TDD is an attempt to iterate the understanding of a Design.
 
 ## Epicycles
 We have been adding epicycles to the programming workflow to fake out programming via stand-alone units of software, e.g.
@@ -69,9 +76,6 @@ We have been adding epicycles to the programming workflow to fake out programmin
 
 - text-only
 
-- Agile
-- TDD
-- 
 # How Do We Incorporate Already-Existing Software Into This Scheme?
 - run Comopnent-based software "under" existing operating systems with "FLI" interfaces to existing operating systems
 

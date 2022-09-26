@@ -1,0 +1,6 @@
+- want to share experience of 40+ years as Software Consultant, Generalist
+- compilers, languages, O/S, embedded
+- former VP of Digital Imaging Association (printing industry)
+- hobbies included: slot cars, photography, audio electronics and guitar stomp boxes, song writing, guitar playing, golf, wine making, astronomy
+- touched on: silk screening, chemistry, 
+- education: Physics, EE

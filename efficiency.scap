@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.2" ID="E3E9B2B3-7D28-4BFB-A6F9-628EB94D6F30">
+  <Notes>
+    <Note ID="0" FontSize="12.0" Position="359.0,83.0" Width="68.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Efficiency</String>
+      <ConnectedNoteIDs>1-2</ConnectedNoteIDs>
+    </Note>
+    <Note ID="1" FontSize="12.0" Position="221.3,150.5" Width="71.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Developer</String>
+      <ConnectedNoteIDs>0, 4, 9, 16</ConnectedNoteIDs>
+    </Note>
+    <Note ID="2" FontSize="12.0" Position="478.4,151.2" Width="67.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>End User</String>
+      <ConnectedNoteIDs>0, 3</ConnectedNoteIDs>
+    </Note>
+    <Note ID="3" FontSize="12.0" Position="504.0,196.0" Width="133.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>inexpensive hardware</String>
+      <ConnectedNoteIDs>2, 7, 11</ConnectedNoteIDs>
+    </Note>
+    <Note ID="4" FontSize="12.0" Position="226.6,202.9" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Expensive Hardware (development system)</String>
+      <ConnectedNoteIDs>1, 5</ConnectedNoteIDs>
+    </Note>
+    <Note ID="5" FontSize="12.0" Position="216.0,270.0" Width="140.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>OK to burn CPU cycles</String>
+      <ConnectedNoteIDs>4, 6</ConnectedNoteIDs>
+    </Note>
+    <Note ID="6" FontSize="12.0" Position="253.0,307.0" Width="188.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>computer generates bits of code</String>
+      <ConnectedNoteIDs>5</ConnectedNoteIDs>
+    </Note>
+    <Note ID="7" FontSize="12.0" Position="554.0,240.0" Width="44.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>“fast”</String>
+      <ConnectedNoteIDs>3</ConnectedNoteIDs>
+    </Note>
+    <Note ID="8" FontSize="12.0" Position="378.6,421.9" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>computer checks for dev errors, typos, type violations</String>
+      <ConnectedNoteIDs>10</ConnectedNoteIDs>
+    </Note>
+    <Note ID="9" FontSize="12.0" Position="129.0,379.0" Width="195.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Architecture, Engineering, Design</String>
+      <ConnectedNoteIDs>1</ConnectedNoteIDs>
+    </Note>
+    <Note ID="10" FontSize="12.0" Position="345.0,378.3" Width="141.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Production Engineering</String>
+      <ConnectedNoteIDs>8, 16-17</ConnectedNoteIDs>
+    </Note>
+    <Note ID="11" FontSize="12.0" Position="626.1,241.7" Width="145.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>general laptop is overkill</String>
+      <ConnectedNoteIDs>3</ConnectedNoteIDs>
+    </Note>
+    <Note ID="12" FontSize="12.0" Position="532.9,377.9" Width="106.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Test Engineering</String>
+      <ConnectedNoteIDs>16</ConnectedNoteIDs>
+    </Note>
+    <Note ID="13" FontSize="12.0" Position="669.0,382.0" Width="153.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Maintenance Engineering</String>
+      <ConnectedNoteIDs>16</ConnectedNoteIDs>
+    </Note>
+    <Note ID="14" FontSize="12.0" Position="215.0,470.0" Width="101.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>UX Engineering</String>
+    </Note>
+    <Note ID="15" FontSize="12.0" Position="123.0,506.0" Width="127.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Security Engineering</String>
+    </Note>
+    <Note ID="16" FontSize="12.0" Position="469.0,337.0" Width="183.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>Productization and Deployment</String>
+      <ConnectedNoteIDs>1, 10, 12-13</ConnectedNoteIDs>
+    </Note>
+    <Note ID="17" FontSize="12.0" Position="394.0,475.0" Width="81.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>optimization</String>
+      <ConnectedNoteIDs>10, 18</ConnectedNoteIDs>
+    </Note>
+    <Note ID="18" FontSize="12.0" Position="410.3,512.4" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.792 0.949 0.988</Fill>
+      </Appearance>
+      <String>faithful re-coding of original Design</String>
+      <ConnectedNoteIDs>17</ConnectedNoteIDs>
+    </Note>
+  </Notes>
+  <BackgroundShapes/>
+  <AutoFit>0-3, 5-7, 9-17</AutoFit>
+  <NoteStyles>
+    <Style Name="Bubble (Blue)" ID="52357325-DC4E-4CE4-ADCB-76D506B8EEE8" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.668962 0.810287 0.895092</BorderColor>
+      <FillColor>0.743291 0.900319 0.994547</FillColor>
+    </Style>
+    <Style Name="Bubble (Green)" ID="E6E2DF92-3826-40C2-83BB-DCE3ED9B0B24" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.669404 0.885265 0.567007</BorderColor>
+      <FillColor>0.743783 0.983628 0.630008</FillColor>
+    </Style>
+    <Style Name="Bubble (Pink)" ID="189DB9AC-5BC1-4AB7-B70E-E9EBB29DC35A" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+      <FillColor>0.989115 0.814114 0.999483</FillColor>
+    </Style>
+    <Style Name="Bubble (Red)" ID="0F38CF06-E2E1-4FAD-8BB4-47469DED82D4" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+      <FillColor>0.993942 0.786413 0.795449</FillColor>
+    </Style>
+    <Style Name="Bubble (Yellow)" ID="8C7DAF08-685D-44F2-85E7-F866DCF8E62E" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.877748 0.828289 0.562126</BorderColor>
+      <FillColor>0.975275 0.920321 0.624585</FillColor>
+    </Style>
+    <Style Name="Red Text" ID="FBA97B62-F420-4761-A23A-F31C96C0D585" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+      <TextColor>0.985954 0.0 0.02694</TextColor>
+    </Style>
+    <Style Name="Title Text" ID="D78A5CA5-F75A-4B80-94D7-ED42C894BF1E" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+      <FontSize>28.0</FontSize>
+      <IsBold>Yes</IsBold>
+    </Style>
+  </NoteStyles>
+  <UISettings>
+    <BackgroundColor>0.999763 0.988395 0.949915</BackgroundColor>
+    <DefaultFont>Helvetica</DefaultFont>
+    <NoteXPadding>8.0</NoteXPadding>
+  </UISettings>
+  <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
+</ScappleDocument>
