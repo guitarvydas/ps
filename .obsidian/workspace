@@ -4,39 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "b198b9849f7fa778",
-        "type": "leaf",
-        "dimension": 33.602693602693606,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Programming Simplicity/notes-20220926.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
         "id": "2500f18484a45862",
         "type": "leaf",
-        "dimension": 39.46127946127946,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Programming Simplicity/2022-09-25-Clockwork Thinking Impedes Progress.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "b92c8043147af9a6",
-        "type": "leaf",
-        "dimension": 26.936026936026938,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Programming Simplicity/notes-20220925.md",
+            "file": "2022-10-06-Identifiers Again.md",
             "mode": "source",
             "source": false
           }
@@ -67,8 +40,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": true,
+                "query": "twitter",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
@@ -88,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.50482177734375
+    "width": 363.5107650756836
   },
   "right": {
     "id": "4cf47ab93b12bd16",
@@ -104,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming Simplicity/notes-20220926.md",
+                "file": "2022-10-06-Identifiers Again.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming Simplicity/notes-20220926.md",
+                "file": "2022-10-06-Identifiers Again.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming Simplicity/notes-20220926.md"
+                "file": "2022-10-06-Identifiers Again.md"
               }
             }
           }
@@ -155,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b198b9849f7fa778",
+  "active": "2500f18484a45862",
   "lastOpenFiles": [
-    "Programming Simplicity/2022-09-25-Clockwork Thinking Impedes Progress.md",
-    "Programming Simplicity/notes-20220925.md",
-    "What I Learned in the Programming Trenches/Amazon.ca.md",
+    "2022-10-05-Inheritance Prototype-based vs Class-based.md",
+    "2022-10-03-HCI Brainstorming.md",
     "What I Learned in the Programming Trenches/The Big 3.md",
-    "Grok naming.md",
-    "2022-09-20-Status.md",
-    "2022-09-20-Bloatware Caused By Type-Checking.md",
-    "2022-09-19-Project Collaboration Jams.md",
-    "Untitled 4.md",
-    "Papers/On Bloatware.md"
+    "What I Learned in the Programming Trenches/fare-2022-10-06.md",
+    "parallelism comments.md",
+    "notes-20221005.md",
+    "Untitled 6.md",
+    "notes-20221003.md",
+    "notes-20221001.md",
+    "Twitter Tweets.md"
   ]
 }
