@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-10-06-Identifiers Again.md",
+            "file": "2022-09-19-Project Collaboration Jams.md",
             "mode": "source",
             "source": false
           }
@@ -40,9 +40,9 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "twitter",
-                "matchingCase": false,
-                "explainSearch": false,
+                "query": "notes-20220919",
+                "matchingCase": true,
+                "explainSearch": true,
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-10-06-Identifiers Again.md",
+                "file": "2022-09-19-Project Collaboration Jams.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2022-10-06-Identifiers Again.md",
+                "file": "2022-09-19-Project Collaboration Jams.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-10-06-Identifiers Again.md"
+                "file": "2022-09-19-Project Collaboration Jams.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "2500f18484a45862",
   "lastOpenFiles": [
-    "2022-10-05-Inheritance Prototype-based vs Class-based.md",
-    "2022-10-03-HCI Brainstorming.md",
-    "What I Learned in the Programming Trenches/The Big 3.md",
-    "What I Learned in the Programming Trenches/fare-2022-10-06.md",
-    "parallelism comments.md",
-    "notes-20221005.md",
-    "Untitled 6.md",
-    "notes-20221003.md",
-    "notes-20221001.md",
-    "Twitter Tweets.md"
+    "notes-20220919.md",
+    "notes-20221014.md",
+    "2022-09-19-Project Collaboration Jams.md",
+    "Statecharts/notes-20221013.md",
+    "Statecharts/notes-20221012.md",
+    "Statecharts/notes-20221011.md",
+    "Statecharts/notes-20201010.md",
+    "TwitterProfile.md",
+    "Statecharts/StateExplosion.md",
+    "Statecharts/%StateCharts.md"
   ]
 }
