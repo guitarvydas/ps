@@ -1,6 +1,6 @@
 # Suggested Goals
 
-Suggested goal: to create Discords[^github] on a per-*project* basis.
+Suggested goal: to create Discords[^github] on a per-*project* basis.  A project is created by a team of domain experts, where the various domains needed for the project are very different from one another.
 
 [^github]: Should these be Discords or github projects?  Or both?  Probably: discuss on Discord, develop code in github.
 
@@ -28,10 +28,10 @@ Goal: iteration back-and-forth between all participants[^iter].
 
 [^iter]: One-way design - without iteration - is called "The Waterfall Method".  Iteration in programming is called "REPLs".
 
-Goal: ... *needs further discussion*
+Goal: ... *further discussion*
 
 # Projects
-A project must be created by a team of domain experts, where the various domains are very different from one another.
+A project is created by a team of domain experts, where the various domains needed for the project are very different from one another.
 
 Programming is a specific domain.  Programming is only a *part* of a project.
 
