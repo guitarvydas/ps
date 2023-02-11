@@ -1,0 +1,17 @@
+Cfunctions {
+  program = item+
+  item =    
+    | FunctionDecl
+    | any
+  FunctionDecl = static? name "(" param+ ")" "{" block+ "}"
+
+    param =
+      | "(" param+ ")"
+      | ~"(" ~")" any
+
+    block =
+      | "{" block+ "}"
+      | ~"{" ~"}" any
+
+      name = letter (alnum | "_")*
+}

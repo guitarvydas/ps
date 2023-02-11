@@ -193,7 +193,7 @@ Data Structuring
 - ASCs - asynchronous software components (WIP)
 
 [[Drakon Diagram Transpilation - Start Here]]
-[[../Papers I Love/Statecharts]]
+[[../Programming Simplicity - Other/Statecharts]]
 [[Nested Sequential Diagrams]]
 ASC Introduction - [[../hamburgerworkbench0D/Hamburger Workbench 0D]] (WIP)
 

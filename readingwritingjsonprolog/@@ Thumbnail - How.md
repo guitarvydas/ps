@@ -1,0 +1,5 @@
+- open ~/Dropbox/ps/Programming Simplicity/pslogo.drawio
+- duplicate a tab
+- edit text
+- export as .PNG
+- copy .PNG fo target directory

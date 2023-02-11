@@ -1,0 +1,5 @@
+- static
+- no overrides from children
+- build-and-forget
+- layers, not flat
+- 

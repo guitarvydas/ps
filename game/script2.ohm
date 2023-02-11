@@ -1,0 +1,87 @@
+Game {
+  TopLevel = Definition+
+  
+  Definition = 
+    | Scenario
+    | ScenarioScript
+    | CharacterScript
+    | Rule
+
+  Scenario = "scenario" name "{" OnEnter Handler OnExit "}"
+  ScenarioScript = "scenario" "script" name scriptNameOperand Block
+  CharacterScript = "character" "script" name scriptNameOperand Block
+  Rule = "rule" name Block
+
+  OnEnter = "on" "enter" Block
+  Handler = "handler" Block
+  OnExit = "on" "exit" Block
+
+  Block = "{" SingleStatement Block? "}"
+
+  SingleStatement =
+    | Guard -- guard
+    | Remove -- remove
+    | Add -- add
+    | Pass -- pass
+    | RunScript -- runscript
+    | SendCommand -- sendCommnd
+    | Becomes -- becomes
+    | "when" predicate Block -- when
+    | MethodCall -- methodCall
+    | UpdateVariable -- updateVariable
+
+
+  predicate = operand "/" methodName
+  methodCall = operand "/" methodName
+
+  Guard =
+    | "only" "if" tagOperand "in" fieldOperand -- tagGuard
+    | "only" "if" operand "is" stateOperand -- stateGuard
+
+  Remove = "remove" tagOperand "from" fieldOperand
+  Add = "add" tagOperand "to" fieldOperand
+  Pass = "pass"
+  Becomes =  name "becomes" stateOperand
+  UpdateVariable = "change" fieldOperand "to" tagOperand
+  RunScript = RunGlobalScript | RunLocalScript
+  RunGlobalScript = "run" "script" "_" scriptNameOperand
+  RunLocalScript = "run" "script" scriptNameOperand
+  MethodCall = methodCall
+  SendCommand = "send" "command" "to" name scriptNameOperand
+
+  operand =
+    | tagOperand -- tagSymbol
+    | stateOperand -- stateSymbol
+    | fieldOperand -- fieldReference
+    | name -- flat
+
+  scriptNameOperand = name
+  methodName = name
+  tagOperand = symbolOperand
+  stateOperand = symbolOperand
+  symbolOperand = "❇" name
+  fieldOperand = name "." name
+
+  name = compoundName | basicName | "_"
+
+  basicName = idchar idRest*
+  idchar = letter
+  idRest = alnum
+
+  // a compoundName MUST start with "❲", 
+  // but, then may contain more compoundNames recursively
+  // as long as the brackets "❲❳" are matched 
+  // (this POC doesn't produce a sensible error message when it 
+  //  encounters unmatched brackets, it just fails with a syntax error)
+
+  compoundName =
+    | "❲" compoundNameInnards+ "❳" -- compound
+    | basicName -- basic
+
+  compoundNameInnards =
+    |  "❲" compoundNameInnards+ "❳" -- recursive
+    | ~"❲" ~"❳" any -- basic
+
+  space += "," // commas are noise - just ignore them
+
+}

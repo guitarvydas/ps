@@ -1,0 +1,8 @@
+- https://obsidian.md
+- https://www.descript.com/home-3
+- https://www.openplanetsoftware.com/just-press-record/
+- https://kinopio.club
+- https://justine.lol/sectorlisp/
+- https://publish.obsidian.md/programmingsimplicity/2023-01-01-Summary+2022
+- https://github.com/guitarvydas/svg
+- https://ohmjs.org

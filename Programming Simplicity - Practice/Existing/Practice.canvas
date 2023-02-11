@@ -1,0 +1,34 @@
+{
+	"nodes":[
+		{"id":"6d3b9bd183408a27","x":-126,"y":122,"width":250,"height":60,"type":"text","text":"Assembler"},
+		{"id":"9ef8e7b6b85e638a","x":-126,"y":198,"width":250,"height":59,"type":"text","text":"LEGO"},
+		{"id":"4d7da2a67c7f160e","x":162,"y":198,"width":250,"height":60,"type":"text","text":"UNIX Pipelines"},
+		{"id":"953e35a24f2572c0","x":162,"y":277,"width":250,"height":60,"type":"text","text":"Business"},
+		{"id":"f27818c3d68a9357","x":99,"y":-638,"width":400,"height":400,"type":"file","file":"Programming Simplicity - Practice/Spreadsheets.md"},
+		{"id":"d533f5f059beb4a6","x":-498,"y":-313,"width":250,"height":60,"type":"text","text":"Existing"},
+		{"id":"1e3f936202ed95d3","x":-498,"y":-210,"width":250,"height":60,"type":"text","text":"New"},
+		{"id":"c7212a5a8976a371","x":-498,"y":-111,"width":250,"height":60,"type":"text","text":"POC and Experimental"},
+		{"id":"918b8b749d78eaa0","x":-498,"y":-14,"width":250,"height":60,"type":"text","text":"Other"},
+		{"id":"11dfba78c2d5e8a2","x":-126,"y":277,"width":250,"height":60,"type":"text","text":"Sector Lisp"},
+		{"id":"336c377afc12862c","x":-220,"y":-498,"width":250,"height":60,"type":"text","text":""},
+		{"id":"ce4889ec75326a84","x":-126,"y":359,"width":250,"height":60,"type":"text","text":"C"},
+		{"id":"ed54774d72c2485e","x":162,"y":359,"width":250,"height":60,"type":"text","text":"FBP"},
+		{"id":"72a945774cde4f09","x":-126,"y":441,"width":250,"height":60,"type":"text","text":"REGEX"},
+		{"id":"794679e55fabae99","x":162,"y":441,"width":250,"height":60,"type":"text","text":"Ohm-JS"},
+		{"id":"02a747fb9bbeb596","x":-126,"y":518,"width":250,"height":60,"type":"text","text":"Kinopio"},
+		{"id":"376e8d8fa3882a7e","x":162,"y":518,"width":250,"height":60,"type":"text","text":"Obsidian"},
+		{"id":"5928687a9e0dcaa9","x":72,"y":-197,"width":400,"height":400,"type":"group","label":"test group"},
+		{"id":"f636a2e690b7bc95","x":137,"y":130,"width":250,"height":60,"type":"text","text":"BASIC"},
+		{"id":"ee8c95ec1e1c8dcd","x":112,"y":-140,"width":250,"height":60,"type":"text","text":"VBA"},
+		{"id":"d888c751a73249d3","x":112,"y":-68,"width":250,"height":50,"type":"text","text":"JavaScript"},
+		{"id":"a7ab968c8b0bddc2","x":112,"y":-13,"width":250,"height":60,"type":"text","text":"Notebooks"},
+		{"id":"645cfd84d10da3e8","x":112,"y":62,"width":250,"height":60,"type":"text","text":"Hypercard"},
+		{"id":"3aaa61a0de4d0fe4","x":-589,"y":-569,"width":170,"height":131,"type":"file","file":"Programming Simplicity - Practice/Existing.md"}
+	],
+	"edges":[
+		{"id":"7beb9c60653b4efe","fromNode":"d533f5f059beb4a6","fromSide":"right","toNode":"ee8c95ec1e1c8dcd","toSide":"left"},
+		{"id":"ced443a4fef33fcf","fromNode":"d533f5f059beb4a6","fromSide":"right","toNode":"d888c751a73249d3","toSide":"left"},
+		{"id":"ca8daff2fc4c9c40","fromNode":"d533f5f059beb4a6","fromSide":"right","toNode":"a7ab968c8b0bddc2","toSide":"left"},
+		{"id":"a2610657813cc633","fromNode":"d533f5f059beb4a6","fromSide":"right","toNode":"f27818c3d68a9357","toSide":"left"}
+	]
+}

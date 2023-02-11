@@ -1,0 +1,20 @@
+Cfunctions {
+  program [item+] = ‛«item»’
+  item_decl [x] =  ‛«x»’
+  item_other [x] =  ‛’
+  FunctionDecl [name lp param+ rp lb block+ rb] = ‛\n«name»’
+    param_nested [lp param+ rp] = ‛’
+    param_flat [c] = ‛’
+    block_nested [lp block+ rp] = ‛’
+    block_flat [c] = ‛’
+      name [letter c*] = ‛«letter»«c»’
+      comment [begin cs end] = ‛’
+      nl [c] =  ‛«c»’
+      spaces [cs] =  ‛«cs»’
+      bqstring [begin cs* end] = ‛’
+      dqstring [begin cs* end] = ‛’
+      sqstring [begin cs* end] = ‛’
+      qbq [bslash c] = ‛’
+      qdq [bslash c] = ‛’
+      qsq [bslash c] = ‛’
+}

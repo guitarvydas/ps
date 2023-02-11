@@ -1,0 +1,6 @@
+Game {
+  Definition = 
+    | Scenario
+    | ScenarioScript
+    | CharacterScript
+}

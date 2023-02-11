@@ -1,0 +1,72 @@
+
+MakeMachineReadable {
+  Toplevel = (DefineScenario | DefineCharacter)+
+  DefineScenario = "scenario" name DefineRule+
+  DefineCharacter = "character" name Definition+
+
+  Definition =
+    | DefineRule
+    | DefineCommand
+
+  DefineRule =    "def" "rule"    name Parameters? RuleBlock
+  DefineCommand = "def" "command" name Parameters? 
+
+  RuleBlock = "{" RuleStatement+ "}"
+  CharacterBlock = "{" CharacterStatement+ "}"
+  RuleStatement =
+    | RuleBlock
+    | CheckRule<RuleBlock>
+    | SendCommand<RuleBlock>
+    | Synonym<RuleBlock>
+  CommandStatement =
+    | CommandBlock
+    | CheckRule<CommandBlock>
+    | SendCommand<CommandBlock>
+    | Change<CommandBlock>
+    | Synonym<CommandBlock>
+
+  CheckRule <blockKind> = 
+    | "check" "rule" "this" "scenario" "." "enter" name blockKind -- enter
+    | "check" "rule" "this" "scenario" "." "exit" name blockKind  -- exit
+    | "check" "rule" operand "contains" name blockKind -- contains
+    | "check" "rule" AttributeTest blockKind -- attributeTest
+
+
+SendCommand <blockKind> = "send" "command" name name messageData blockKind
+Change <blockKind> = "change" "my" "." name name blockKind
+Synonym <blockKind> = "synonym" name Expression blockKind
+
+  messageData = operand
+
+  AttributeTest = name "." name "=" name
+
+  operand = 
+    | name "." name -- fieldReference
+    | name -- flat
+
+  Expression =
+    | "remove" name "from" operand
+
+  name = compoundName | basicName
+  Parameters = "(" name* ")"
+
+  basicName = idchar idRest*
+  idchar = letter
+  idRest = alnum
+
+  // a compoundName MUST start with "❲", 
+  // but, then may contain more compoundNames recursively
+  // as long as the brackets "❲❳" are matched 
+  // (this POC doesn't produce a sensible error message when it 
+  //  encounters unmatched brackets, it just fails with a syntax error)
+
+  compoundName =
+    | "❲" compoundNameInnards "❳" -- compound
+    | basicName -- basic
+
+  compoundNameInnards =
+    | "❲" compoundNameInnards "❳" -- recursive
+    | basicName -- basic
+
+  space += "," // commas are noise - just ignore them
+}

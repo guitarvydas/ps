@@ -1,0 +1,12 @@
+scenario pizzeria {
+  on enter {
+    run script ❲give bag of money to player❳
+  }
+  handler {
+    process player move
+    decrement player time
+  }
+  on exit {
+    pass
+  }
+}

@@ -1,0 +1,68 @@
+
+MakeMachineReadable {
+  toplevel = (scenario | character)+
+  scenario = DefineRule+
+  character = DefineCharacter+
+
+  DefineRule = "def" "rule" name Parameters RuleBlock
+  DefineCharacter = "character" name CharacterBlock
+
+  RuleBlock = "{" RuleStatement+ "}"
+  CharacterBlock = "{" CharacterStatement+ "}"
+  RuleStatement =
+    | RuleBlock
+    | CheckRule<RuleBlock>
+    | SendCommand<RuleBlock>
+    | Synonym<RuleBlock>
+  CharacterStatement =
+    | CharacterBlock
+    | CheckRule<CharacterBlock>
+    | SendCommand<CharacterBlock>
+    | Change<CharacterBlock>
+    | Synonym<CharacterBlock>
+
+  CheckRule <blockKind> = 
+    | "check" "rule" "this" "scenario" "." "enter" name blockKind
+    | "check" "rule" "this" "scenario" "." "exit" name blockKind
+    | "check" "rule" operand "contains" name blockKind
+    | "check" "rule" AttributeTest blockKind
+
+
+SendCommand <blockKind> = "send" "command" name name messageData blockKind
+Change <blockKind> = "change" "my" "." name name blockKind
+Synonym <blockKind> = "synonym" name Expression blockKind
+
+  messageData = operand
+
+  AttributeTest = name "." name "=" name
+
+  operand = 
+    | name "." name
+    | name
+
+  Expression =
+    | "remove" name "from" operand
+
+  name = compoundName | basicName
+  Parameters = "(" name* ")"
+
+  basicName = idchar idRest*
+  idchar = letter
+  idRest = alnum
+
+  // a compoundName MUST start with "❲", 
+  // but, then may contain more compoundNames recursively
+  // as long as the brackets "❲❳" are matched 
+  // (this POC doesn't produce a sensible error message when it 
+  //  encounters unmatched brackets, it just fails with a syntax error)
+
+  compoundName =
+    | "❲" compoundNameInnards "❳" -- compound
+    | basicName -- basic
+
+  compoundNameInnards =
+    | "❲" compoundNameInnards "❳" -- recursive
+    | basicName -- basic
+
+  space += "," // commas are noise - just ignore them
+}

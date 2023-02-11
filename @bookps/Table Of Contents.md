@@ -1,0 +1,1 @@
+![[../Simplicity-3.png]]

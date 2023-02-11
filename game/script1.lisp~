@@ -1,0 +1,11 @@
+(in-room "pizzeria")
+
+(defrule "give bag of money to player" (player)
+
+  (preconditions
+   (rule ("mob boss" location "pizzeria"))
+   (rule (player location "pizzeria"))
+   (rule (player enters "pizzeria")))
+
+  (send-command "mob boss" "give bag of money to player" player))
+

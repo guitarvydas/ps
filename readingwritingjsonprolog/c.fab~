@@ -1,0 +1,6 @@
+Cfunctions {
+  program [item+] = ‛«item»’
+  item [x] =  ‛«x»’
+  FunctionDecl [k? name lp param+ rp lb block+ rb] = ’\n«name»’
+      name [letter c*] = ‛«letter»«c»’
+}

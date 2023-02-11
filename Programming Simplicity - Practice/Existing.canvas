@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"b853a4c325ff9577","x":-429,"y":-8,"width":400,"height":400,"type":"file","file":"Programming Simplicity - Practice/Existing/Assembler.md"},
+		{"id":"e9e8920ea9a12792","x":-449,"y":-337,"width":258,"height":107,"type":"file","file":"Programming Simplicity - Practice/Existing/Spreadsheets.md"},
+		{"id":"5a8d2278a01cada4","x":-449,"y":-183,"width":339,"height":137,"type":"file","file":"Programming Simplicity - Practice/Existing/Hypercard.md"}
+	],
+	"edges":[]
+}

@@ -1,0 +1,19 @@
+- rrPI - raisin-sized rPI - GEM == generalized electronic machine
+- 500 joints and sensors
+- glue an rrPI onto each joint
+- join all rrPIs together with wires
+- each rrPI runs ONE single-threaded program, no operating system necessary, no reason to slap Linux onto an rrPI
+- thread safety - not an issue
+	- GEMs can't share memory, they can only send 1-way messages on wires
+- draw network of rrPIs on a whiteboard, one box per rrPI, one arrow for each one-way message path
+- Structured Message Passing - nested Russian Doll architecture of many layers of GEM boxes
+- rule of 7
+- if you need to use existing software, wrap that software in Linux, bolt Linux onto an rrPI, send the Linux package messages from the single-threaded program
+- how to stay out of trouble - aka scaling - don't broadcast messages, use Structured Message Passing
+- POCs
+	- Arrowgrams
+	- vsh
+	- py0d
+	- working n cl0d
+	- existing software: e.g. equestrian medical sampler and controller
+		- Python program on each GEM

@@ -144,8 +144,8 @@
 .reveal img,
 .reveal video,
 .reveal iframe {
-  max-width: 95%;
-  max-height: 95%;
+  max-width: 100%;
+  max-height: 100%;
 }
 .reveal strong,
 .reveal b {
@@ -315,4 +315,13 @@
   .backgrounds {
     background-color: var(--r-background-color);
   }
+}
+.has-dark-background canvas[data-chart] {
+  background-color: white;
+}
+.has-light-background canvas[data-chart] {
+  background-color: unset;
+}
+canvas[data-chart] {
+  padding: 0.5em;
 }

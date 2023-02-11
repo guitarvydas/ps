@@ -1,0 +1,151 @@
+scenario pizzeria {
+  on enter {
+    run script ❲give bag of money to player❳
+  }
+  handler {
+    process player move
+    decrement player time
+  }
+  on exit {
+    pass
+  }
+}
+
+scenario script ❲give bag of money to player❳ {
+  only if ❲mob boss❳.location = pizzeria {
+    only if player.location = pizzeria {
+      send command to ❲mob boss❳ ❲give bag of money to player❳
+    }
+  }
+}
+
+character script ❲mob boss❳ ❲give bag of money to player❳ {
+  only if ❲black bag❳ in ❲mob boss❳.inventory {
+    only if ❲mob boss❳ is ❲itching to launder money❳ {
+      remove ❲black bag❳ from ❲mob boss❳.inventory
+      add ❲black bag❳ to player.inventory {
+      ❲mob boss❳ becomes ❲waiting for return of money❳
+      change ❲mob boss❳.location to casino
+    }
+  }
+}
+
+--- iterate automatically ---
+▫  tag
+✦  state
+❇  any symbol
+☞  command
+
+scenario pizzeria {
+  on enter {
+    run script ❲give bag of money to player❳
+  }
+  handler {
+    player/move {
+      player.time/decreent
+    }
+  }
+  on exit {
+    pass
+  }
+}
+
+scenario script pizzeria ❲give bag of money to player❳ {
+  only if ❲mob boss❳.location is ❇pizzeria {
+    only if player.location is ❇pizzeria {
+      send command to ❲mob boss❳ ❲give bag of money to player❳
+    }
+  }
+}
+
+character script ❲mob boss❳ ❲give bag of money to player❳ {
+  only if ❇❲black bag❳ in ❲mob boss❳.inventory {
+    only if ❲mob boss❳ is ❇❲itching to launder money❳ {
+      remove ❇❲black bag❳ from ❲mob boss❳.inventory {
+        add ❇❲black bag❳ to player.inventory {
+          ❲mob boss❳ becomes ❇❲waiting for return of money❳ {
+            change ❲mob boss❳.location to ❇casino
+          }
+	}
+      }
+    }
+  }
+}
+
+rule player {
+  when player.time/expired {
+    run script _ die
+  }
+}
+
+--- iterate automatically to add more detail ---
+
+▫location {
+  pizzeria
+  casino
+  ❲tree farm❳
+  ❲gun store❳
+  museum
+  ❲back alley❳
+  casino
+  river
+}
+
+▫thing {
+  ❲black bag❳
+  pistol
+  knife
+  rope
+  ❲body bag❳
+  ❲Christmas tree❳
+  ❲cord of firewood❳
+  sword
+  ❲unit of time❳
+  cash
+}
+
+everywhere {
+  player
+  ❲mob boss❳ { ✦❲itching to launder money❳ ✦❲waiting for return of money❳ }
+  ❲gun store shopkeeper❳
+  ❲tree farm owner❳
+  ❲security guard❳
+  mugger
+}
+
+scenario pizzeria {
+  on enter {
+    run script ☞❲give bag of money to player❳
+  }
+  handler {
+    process player move {
+      ☞❲decrement player time❳
+    }
+  }
+  on exit {
+    pass
+  }
+}
+
+scenario script ❲give bag of money to player❳ {
+  only if ❲mob boss❳.location = ▫location.pizzeria {
+    only if player.location = ▫location.pizzeria {
+      send command to ❲mob boss❳ ☞❲give bag of money to player❳
+    }
+  }
+}
+
+character script ❲mob boss❳ ☞❲give bag of money to player❳ {
+  only if ▫thing.❲black bag❳ in ❲mob boss❳.inventory {
+    only if ❲mob boss❳ is ✦❲itching to launder money❳ {
+      remove ▫thing.❲black bag❳ from ❲mob boss❳.inventory {
+        add ▫thing.❲black bag❳ to player.inventory {
+          ❲mob boss❳ becomes ✦❲waiting for return of money❳ {
+            change ❲mob boss❳.location to ▫location.casino
+          }
+	}
+      }
+    }
+  }
+}
+
